@@ -153,6 +153,10 @@ body {
     font-style: normal;
     text-transform: uppercase;
     padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 
 .header a.backLink:focus,
@@ -535,6 +539,10 @@ a.homeLink {
     float: left;
     border-right: solid 3px #fff;
     padding: 0 15px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 
 a.homeLink:focus,
@@ -938,8 +946,7 @@ span.languageHolder.pull-right {
         padding: 0 5px;
     }
     .header a.backLink {
-        width: 20px;
-        overflow: hidden;
+        margin-right: 15px;
     }
     .header {
         font-size: 18px;
