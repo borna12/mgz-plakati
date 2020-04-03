@@ -1,17 +1,14 @@
 
 
-//izmjene za rezolucij$(document).ready(function() {
-    // Optimalisation: Store the references outside the event handler:
-    
-$(document).ready(function() {
+//izmjene za rezolucije
 
+$(document).ready(function () {
     function checkWidth() {
-     
         if ($(window).width() <= 1024) {
         }
-         else if ($(window).width() <= 600){
-            $(".backLink").html("<")
-         }
+        else if ($(window).width() <= 600) {
+            $(".header a.backLink").html("<<")
+        }
     }
     // Execute on load
     checkWidth();
