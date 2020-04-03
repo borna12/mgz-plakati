@@ -913,7 +913,7 @@ span.languageHolder.pull-right {
     .header a.backLink {
         font-size: 20px;
     }
-    #navbar {
+    .header {
         font-size: 18px;
         line-height: 30px;
     }
