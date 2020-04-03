@@ -92,6 +92,7 @@ button, .button {
     border-radius: 4px;
     text-transform: uppercase;
     position: relative;
+    margin-bottom: 20px;
 }
 button:hover, .button:hover{background:black; color: white}
 
