@@ -929,6 +929,9 @@ span.languageHolder.pull-right {
         text-transform: uppercase;
         top: 8px;
         font-size: 18px;
+        background: rgba(140, 122, 122, 0.85);
+        border-radius: 5px;
+        padding: 0 5px;
     }
     .header a.backLink {
         width: 20px;
