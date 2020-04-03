@@ -857,8 +857,7 @@ span.languageHolder.pull-right {
     
     
     }
-    .header a.backLink{width:150px; font-size: 20px;    overflow: hidden;
-        height: 70px;}
+    .header a.backLink{width:150px; font-size: 20px;}
     #navbar{font-size:18px}
 }
 
@@ -876,5 +875,6 @@ span.languageHolder.pull-right {
     top: 8px;
     font-size: 18px;
 }
-.header a.backLink{width: 50px;}
+.header a.backLink{width: 50px;overflow: hidden;
+    height: 70px;}
 }
