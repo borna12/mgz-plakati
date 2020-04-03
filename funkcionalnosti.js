@@ -6,14 +6,12 @@
 $(document).ready(function() {
 
     function checkWidth() {
-        var windowsize = $(window).width();
-        if ($(windowsize).width() <= 1024) {
+     
+        if ($(window).width() <= 1024) {
             alert("radi")
         }
-         else if ($(windowsize).width() <= 600){
+         else if ($(window).width() <= 600){
             $(".backLink").text("<")
-            
-        
          }
     }
     // Execute on load
