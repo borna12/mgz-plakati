@@ -7,7 +7,7 @@ $(document).ready(function () {
         if ($(window).width() <= 1024) {
         }
         else if ($(window).width() <= 600) {
-            $("backLink").hide()
+            $("a.backLink").hide()
             $(".header a.backLink").html("<<")
         }
     }
