@@ -928,8 +928,8 @@ span.languageHolder.pull-right {
         font-size: 18px;
         line-height: 50px;
     }
-    .mainTitle .languageHolder {
-        padding: 5px 5px;
+    h1>.languageHolder {
+        padding: 5px 5px!important;
     }
 }
 
