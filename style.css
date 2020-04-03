@@ -893,7 +893,7 @@ span.languageHolder.pull-right {
     transform: translateX(-50%) translateY(-50%);
 }
 
-.navbar {
+#navbar {
     display: inline-flex;
 }
 
