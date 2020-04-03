@@ -4,10 +4,9 @@
     // Optimalisation: Store the references outside the event handler:
     
 $(document).ready(function() {
-    var prozor = $(window);
 
     function checkWidth() {
-        var windowsize = prozor.width();
+        var windowsize = $(window).width();
         if ($(windowsize).width() <= 1024) {
             alert("radi")
         }
