@@ -5,10 +5,10 @@
 $(document).ready(function () {
     function checkWidth() {
         if ($(window).width() <= 1024) {
-            $(".LeftMenuHolder").hide()
+            $(".backLink").hide()
         }
         else if ($(window).width() <= 600) {
-            $("a.backLink").hide()
+            $(".backLink").hide()
             $(".header a.backLink").html("<<")
         }
     }
