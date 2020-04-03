@@ -4,15 +4,16 @@
     // Optimalisation: Store the references outside the event handler:
     
 $(document).ready(function() {
-    var $window = $(window);
+    var prozor = $(window);
 
     function checkWidth() {
-        var windowsize = $window.width();
+        var windowsize = prozor.width();
         if ($(windowsize).width() <= 1024) {
+            alert("radi")
         }
          else if ($(windowsize).width() <= 600){
             $(".backLink").text("<")
-            alert("radi")
+            
         
          }
     }
