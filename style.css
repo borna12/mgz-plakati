@@ -893,6 +893,10 @@ span.languageHolder.pull-right {
     transform: translateX(-50%) translateY(-50%);
 }
 
+.navbar {
+    display: inline-flex;
+}
+
 @media only screen and (max-width: 1024px) {
     .mainTitle {
         font-size: 30px!important;

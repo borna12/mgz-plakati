@@ -13,4 +13,4 @@ $(document).ready(function() {
     $(window).resize(checkWidth);
 });
 
-alert($(".backLink").text())
+$(".backLink").text("<<")
