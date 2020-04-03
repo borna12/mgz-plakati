@@ -5,11 +5,10 @@
 $(document).ready(function () {
     function checkWidth() {
         if ($(window).width() <= 1024) {
-            $(".backLink").hide()
         }
         else if ($(window).width() <= 600) {
-            $(".backLink").hide()
-            $(".header a.backLink").html("<<")
+            
+            $(".backLink").text("<<")
         }
     }
     // Execute on load
