@@ -1,5 +1,4 @@
 
-    alert("radi")
 
 //izmjene za rezolucije
 if ($(window).width() <= 1024) {
