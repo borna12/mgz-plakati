@@ -1,80 +1,109 @@
 /* roboto-100 - latin-ext_latin */
+
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 100;
-    src: url('fonts/roboto-v18-latin-ext_latin-100.eot'); /* IE9 Compat Modes */
+    src: url('fonts/roboto-v18-latin-ext_latin-100.eot');
+    /* IE9 Compat Modes */
     src: local('Roboto Thin'), local('Roboto-Thin'), url('fonts/roboto-v18-latin-ext_latin-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
     url('fonts/roboto-v18-latin-ext_latin-100.woff2') format('woff2'), /* Super Modern Browsers */
     url('fonts/roboto-v18-latin-ext_latin-100.woff') format('woff'), /* Modern Browsers */
     url('fonts/roboto-v18-latin-ext_latin-100.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('fonts/roboto-v18-latin-ext_latin-100.svg#Roboto') format('svg'); /* Legacy iOS */
+    url('fonts/roboto-v18-latin-ext_latin-100.svg#Roboto') format('svg');
+    /* Legacy iOS */
 }
+
+
 /* roboto-300 - latin-ext_latin */
+
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    src: url('fonts/roboto-v18-latin-ext_latin-300.eot'); /* IE9 Compat Modes */
+    src: url('fonts/roboto-v18-latin-ext_latin-300.eot');
+    /* IE9 Compat Modes */
     src: local('Roboto Light'), local('Roboto-Light'), url('fonts/roboto-v18-latin-ext_latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
     url('fonts/roboto-v18-latin-ext_latin-300.woff2') format('woff2'), /* Super Modern Browsers */
     url('fonts/roboto-v18-latin-ext_latin-300.woff') format('woff'), /* Modern Browsers */
     url('fonts/roboto-v18-latin-ext_latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('fonts/roboto-v18-latin-ext_latin-300.svg#Roboto') format('svg'); /* Legacy iOS */
+    url('fonts/roboto-v18-latin-ext_latin-300.svg#Roboto') format('svg');
+    /* Legacy iOS */
 }
+
+
 /* roboto-regular - latin-ext_latin */
+
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    src: url('fonts/roboto-v18-latin-ext_latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('fonts/roboto-v18-latin-ext_latin-regular.eot');
+    /* IE9 Compat Modes */
     src: local('Roboto'), local('Roboto-Regular'), url('fonts/roboto-v18-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
     url('fonts/roboto-v18-latin-ext_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
     url('fonts/roboto-v18-latin-ext_latin-regular.woff') format('woff'), /* Modern Browsers */
     url('fonts/roboto-v18-latin-ext_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('fonts/roboto-v18-latin-ext_latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+    url('fonts/roboto-v18-latin-ext_latin-regular.svg#Roboto') format('svg');
+    /* Legacy iOS */
 }
+
+
 /* roboto-500 - latin-ext_latin */
+
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    src: url('fonts/roboto-v18-latin-ext_latin-500.eot'); /* IE9 Compat Modes */
+    src: url('fonts/roboto-v18-latin-ext_latin-500.eot');
+    /* IE9 Compat Modes */
     src: local('Roboto Medium'), local('Roboto-Medium'), url('fonts/roboto-v18-latin-ext_latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
     url('fonts/roboto-v18-latin-ext_latin-500.woff2') format('woff2'), /* Super Modern Browsers */
     url('fonts/roboto-v18-latin-ext_latin-500.woff') format('woff'), /* Modern Browsers */
     url('fonts/roboto-v18-latin-ext_latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('fonts/roboto-v18-latin-ext_latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
+    url('fonts/roboto-v18-latin-ext_latin-500.svg#Roboto') format('svg');
+    /* Legacy iOS */
 }
+
+
 /* roboto-700 - latin-ext_latin */
+
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    src: url('fonts/roboto-v18-latin-ext_latin-700.eot'); /* IE9 Compat Modes */
+    src: url('fonts/roboto-v18-latin-ext_latin-700.eot');
+    /* IE9 Compat Modes */
     src: local('Roboto Bold'), local('Roboto-Bold'), url('fonts/roboto-v18-latin-ext_latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
     url('fonts/roboto-v18-latin-ext_latin-700.woff2') format('woff2'), /* Super Modern Browsers */
     url('fonts/roboto-v18-latin-ext_latin-700.woff') format('woff'), /* Modern Browsers */
     url('fonts/roboto-v18-latin-ext_latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('fonts/roboto-v18-latin-ext_latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
+    url('fonts/roboto-v18-latin-ext_latin-700.svg#Roboto') format('svg');
+    /* Legacy iOS */
 }
+
+
 /* roboto-900 - latin-ext_latin */
+
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
-    src: url('fonts/roboto-v18-latin-ext_latin-900.eot'); /* IE9 Compat Modes */
+    src: url('fonts/roboto-v18-latin-ext_latin-900.eot');
+    /* IE9 Compat Modes */
     src: local('Roboto Black'), local('Roboto-Black'), url('fonts/roboto-v18-latin-ext_latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
     url('fonts/roboto-v18-latin-ext_latin-900.woff2') format('woff2'), /* Super Modern Browsers */
     url('fonts/roboto-v18-latin-ext_latin-900.woff') format('woff'), /* Modern Browsers */
     url('fonts/roboto-v18-latin-ext_latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('fonts/roboto-v18-latin-ext_latin-900.svg#Roboto') format('svg'); /* Legacy iOS */
+    url('fonts/roboto-v18-latin-ext_latin-900.svg#Roboto') format('svg');
+    /* Legacy iOS */
 }
 
 body {
     font-family: 'Roboto';
     overflow-x: hidden;
 }
+
 
 /*.fullPageHolder {
     position: absolute;
@@ -107,29 +136,29 @@ body {
     width: 100%;
 }
 
-    .header i {
-        margin-right: 7px;
-    }
+.header i {
+    margin-right: 7px;
+}
 
-    .header a.backLink {
-        color: #fff;
-        display: block;
-        border-right: solid 2px #fff;
-        text-align: center;
-        float: left;
-        margin-right: 25px;
-        font-weight: 900;
-        font-size: 24px;
-        font-style: normal;
-        text-transform: uppercase;
-        padding: 0 15px;
-    }
+.header a.backLink {
+    color: #fff;
+    display: block;
+    border-right: solid 2px #fff;
+    text-align: center;
+    float: left;
+    margin-right: 25px;
+    font-weight: 900;
+    font-size: 24px;
+    font-style: normal;
+    text-transform: uppercase;
+    padding: 0 15px;
+}
 
-        .header a.backLink:focus, .header a.backLink:hover {
-            color: black;
-            background-color: #ddd;
-        }
-
+.header a.backLink:focus,
+.header a.backLink:hover {
+    color: black;
+    background-color: #ddd;
+}
 
 .LeftMenuHolder {
     width: 695px;
@@ -140,7 +169,8 @@ body {
     border-right: solid 2px black;
 }
 
-    /*.LeftMenuHolder img {
+
+/*.LeftMenuHolder img {
     max-width:608px;
     max-height:911px;
     position:absolute;
@@ -149,18 +179,18 @@ body {
     transform:translateX(-50%) translateY(-50%);
 }*/
 
-    .LeftMenuHolder img {
-        max-width: 608px;
-        max-height: 911px;
-        position: absolute;
-        top: 35px;
-        left: 50%;
-        -moz-transform: translateX(-50%) translateY(0);
-        -ms-transform: translateX(-50%) translateY(0);
-        -o-transform: translateX(-50%) translateY(0);
-        -webkit-transform: translateX(-50%) translateY(0);
-        transform: translateX(-50%) translateY(0);
-    }
+.LeftMenuHolder img {
+    max-width: 608px;
+    max-height: 911px;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(0);
+    -ms-transform: translateX(-50%) translateY(0);
+    -o-transform: translateX(-50%) translateY(0);
+    -webkit-transform: translateX(-50%) translateY(0);
+    transform: translateX(-50%) translateY(0);
+}
 
 .ContentHolder {
     position: absolute;
@@ -186,7 +216,6 @@ body {
     padding: 0 35px;
 }
 
-
 .RightContentHolder {
     position: absolute;
     right: 0;
@@ -197,48 +226,50 @@ body {
     padding-top: 40px;
 }
 
-    .RightContentHolder h2 {
-        font-size: 14px;
-        text-align: left;
-        color: #cecece;
-        padding: 5px 15px 20px 0;
-    }
+.RightContentHolder h2 {
+    font-size: 14px;
+    text-align: left;
+    color: #cecece;
+    padding: 5px 15px 20px 0;
+}
 
-    .RightContentHolder h1 {
-        color: #fff;
-        background-color: #484848;
-        font-weight: 900;
-        font-size: 24px;
-        font-style: normal;
-        text-transform: uppercase;
-        text-align: left;
-        margin-bottom: 20px;
-        padding-left: 20px;
-        width: auto;
-    }
+.RightContentHolder h1 {
+    color: #fff;
+    background-color: #484848;
+    font-weight: 900;
+    font-size: 24px;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    width: auto;
+}
 
-    .RightContentHolder a, .RightContentHolder a:hover, .RightContentHolder a:focus {
-        color: #cecece;
-    }
+.RightContentHolder a,
+.RightContentHolder a:hover,
+.RightContentHolder a:focus {
+    color: #cecece;
+}
 
-    .RightContentHolder img {
-        width: 160px;
-    }
+.RightContentHolder img {
+    width: 160px;
+}
 
 .legenda {
     padding: 30px 35px 0 80px;
 }
 
-    .legenda i {
-        font-size: 38px;
-        position: absolute;
-        left: 35px;
-    }
+.legenda i {
+    font-size: 38px;
+    position: absolute;
+    left: 35px;
+}
 
-    .legenda strong {
-        font-size: 22px;
-        line-height: 40px;
-    }
+.legenda strong {
+    font-size: 22px;
+    line-height: 40px;
+}
 
 .capText {
     text-transform: uppercase;
@@ -250,12 +281,14 @@ body {
     overflow: auto;
 }
 
+
 /*.AutorHolder .ContentHolder {
     left: 452px;
     width: 1452px;
     overflow: auto;
     border-right: none;
 }*/
+
 .AutorHolder .ContentHolder {
     left: 452px;
     width: 1468px;
@@ -263,17 +296,17 @@ body {
     border-right: none;
 }
 
-    .AutorHolder .ContentHolder .Content {
-        left: auto;
-        right: auto;
-        width: auto;
-        border-right: none;
-        border-bottom: solid 2px black;
-        bottom: auto;
-        position: relative;
-        top: auto;
-        padding: 35px;
-    }
+.AutorHolder .ContentHolder .Content {
+    left: auto;
+    right: auto;
+    width: auto;
+    border-right: none;
+    border-bottom: solid 2px black;
+    bottom: auto;
+    position: relative;
+    top: auto;
+    padding: 35px;
+}
 
 .RelatedRow {
     float: left;
@@ -296,9 +329,9 @@ body {
     padding-bottom: 30px;
 }
 
-    .RelatedItem img {
-        max-width: 160px;
-    }
+.RelatedItem img {
+    max-width: 160px;
+}
 
 .imageHolder {
     overflow: hidden;
@@ -333,7 +366,9 @@ h2.subSubTitle {
     font-size: 28px;
 }
 
-.RelatedItem a, .RelatedItem a:hover, .RelatedItem a:focus {
+.RelatedItem a,
+.RelatedItem a:hover,
+.RelatedItem a:focus {
     color: #cecece;
 }
 
@@ -357,11 +392,13 @@ hr {
     overflow: auto;
 }
 
+
 /*.TemeHolder .ContentHolder {
     left: 452px;
     width: 1452px;
     overflow: auto;
 }*/
+
 .TemeHolder .ContentHolder {
     left: 452px;
     width: 1468px;
@@ -392,14 +429,17 @@ hr {
     padding-top: 0;
 }
 
-    .TemeItem p.kataloska a, .TemeItem p.kataloska a:hover, .TemeItem p.kataloska a:focus {
-        color: #fff;
-        font-size: 18px;
-        line-height: 22px;
-    }
+.TemeItem p.kataloska a,
+.TemeItem p.kataloska a:hover,
+.TemeItem p.kataloska a:focus {
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+}
 
-
-.TemeItem .opis a, .TemeItem .opis a:hover, .TemeItem .opis a:focus {
+.TemeItem .opis a,
+.TemeItem .opis a:hover,
+.TemeItem .opis a:focus {
     color: #cecece;
 }
 
@@ -412,9 +452,9 @@ hr {
     width: 1080px;
 }
 
-    .TextTemeHolder .kataloska {
-        padding-top: 0;
-    }
+.TextTemeHolder .kataloska {
+    padding-top: 0;
+}
 
 ul.LeftMenu {
     margin-top: 45px;
@@ -430,18 +470,20 @@ ul.LeftMenu {
     position: relative;
 }
 
-    .LeftMenu a i.fa.fa-caret-down {
-        position: absolute;
-        right: 10px;
-        top: 7px;
-    }
+.LeftMenu a i.fa.fa-caret-down {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
 
-    .LeftMenu a:hover, .LeftMenu a:focus, .LeftMenu li.active > a {
-        color: #000;
-        background-color: #ccc;
-    }
+.LeftMenu a:hover,
+.LeftMenu a:focus,
+.LeftMenu li.active>a {
+    color: #000;
+    background-color: #ccc;
+}
 
-.LeftMenu > li > a {
+.LeftMenu>li>a {
     text-transform: uppercase;
 }
 
@@ -453,7 +495,6 @@ ul.LeftMenu {
 .LeftMenu .subMenu .subMenu a {
     padding-left: 55px;
 }
-
 
 .TemeTekst {
     left: auto;
@@ -471,7 +512,7 @@ ul.subMenu {
     display: none;
 }
 
-.LeftMenu li.active > .subMenu {
+.LeftMenu li.active>.subMenu {
     display: block;
 }
 
@@ -495,10 +536,12 @@ a.homeLink {
     padding: 0 15px 0 20px;
 }
 
-    a.homeLink:focus, a.homeLink:hover {
-        color: black;
-        background-color: #ddd;
-    }
+a.homeLink:focus,
+a.homeLink:hover {
+    color: black;
+    background-color: #ddd;
+}
+
 
 /*.GradHolder .ContentHolder {
     left: 0;
@@ -506,6 +549,7 @@ a.homeLink {
     width: auto;
     overflow: auto;
 }*/
+
 .GradHolder .ContentHolder {
     left: 0;
     right: 0;
@@ -533,23 +577,22 @@ a.homeLink {
     padding: 35px;
 }
 
-    .GradRow .RelatedItem {
-        width: 100%;
-        text-align: center;
-        height: 100%;
-        padding: 0;
-    }
+.GradRow .RelatedItem {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    padding: 0;
+}
 
-        .GradRow .RelatedItem img {
-            max-height: 100%;
-            width: auto;
-            max-width: none;
-        }
+.GradRow .RelatedItem img {
+    max-height: 100%;
+    width: auto;
+    max-width: none;
+}
 
-
-        .GradRow .RelatedItem .imageHolder {
-            height: 100%;
-        }
+.GradRow .RelatedItem .imageHolder {
+    height: 100%;
+}
 
 button {
     text-transform: uppercase;
@@ -557,10 +600,10 @@ button {
     padding-left: 45px;
 }
 
-    button i {
-        position: absolute;
-        left: 20px;
-    }
+button i {
+    position: absolute;
+    left: 20px;
+}
 
 .GradRow:last-child {
     border-bottom: none;
@@ -587,10 +630,11 @@ a.relatedLink {
     width: 140px;
 }
 
-    a.relatedLink:hover, a.relatedLink:active {
-        color: #232323;
-        background-color: #a0a0a0;
-    }
+a.relatedLink:hover,
+a.relatedLink:active {
+    color: #232323;
+    background-color: #a0a0a0;
+}
 
 .relatedLink i {
     position: absolute;
@@ -600,28 +644,29 @@ a.relatedLink {
     top: 0;
     bottom: 0;
     line-height: 36px;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
-    .relatedLink i:before {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -moz-transform: translateX(-50%) translateY(-50%);
-        -ms-transform: translateX(-50%) translateY(-50%);
-        -o-transform: translateX(-50%) translateY(-50%);
-        -webkit-transform: translateX(-50%) translateY(-50%);
-        transform: translateX(-50%) translateY(-50%);
-        font-size: 18px;
-    }
+.relatedLink i:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 18px;
+}
 
-.relatedLink + h1 {
+.relatedLink+h1 {
     margin-top: 25px;
 }
 
-.relatedLink + h2 {
+.relatedLink+h2 {
     margin-top: 20px;
 }
+
 
 /*a.relatedLink:after {
     content:'';
@@ -698,13 +743,14 @@ ul.GradSlikeList {
     padding: 0 25px;
 }
 
-.prev, .next {
+.prev,
+.next {
     position: absolute;
     left: 415px;
     bottom: 35px;
     width: 110px;
     top: 35px;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     text-align: center;
     cursor: pointer;
 }
@@ -714,18 +760,19 @@ ul.GradSlikeList {
     right: 35px;
 }
 
-    .prev i, .next i {
-        font-size: 60px;
-        opacity: 0.5;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        -moz-transform: translateX(-50%) translateY(-50%);
-        -ms-transform: translateX(-50%) translateY(-50%);
-        -o-transform: translateX(-50%) translateY(-50%);
-        -webkit-transform: translateX(-50%) translateY(-50%);
-        transform: translateX(-50%) translateY(-50%);
-    }
+.prev i,
+.next i {
+    font-size: 60px;
+    opacity: 0.5;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
 
 .prev {
     display: none;
@@ -735,7 +782,7 @@ ul.GradSlikeList {
     float: left;
     width: 1920px;
     position: relative;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -757,15 +804,16 @@ ul.GradGallery {
     width: 9999999px;
 }
 
-    ul.GradGallery li {
-        float: left;
-        margin-right: 0;
-        width: 170px;
-    }
+ul.GradGallery li {
+    float: left;
+    margin-right: 0;
+    width: 170px;
+}
 
-        ul.GradGallery li.activeItem, ul.GradGallery li:hover {
-            background: rgba(0,0,0,0.2);
-        }
+ul.GradGallery li.activeItem,
+ul.GradGallery li:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
 
 .GradGalleryItemHolder img {
     max-width: 170px;
@@ -777,13 +825,14 @@ ul.GradGallery {
     padding: 7px 0;
 }
 
-.prev2, .next2 {
+.prev2,
+.next2 {
     position: absolute;
     left: 0;
     bottom: 0;
     width: 110px;
     top: 0;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     text-align: center;
     cursor: pointer;
 }
@@ -793,18 +842,19 @@ ul.GradGallery {
     right: 0;
 }
 
-    .prev2 i, .next2 i {
-        font-size: 60px;
-        opacity: 0.5;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        -moz-transform: translateX(-50%) translateY(-50%);
-        -ms-transform: translateX(-50%) translateY(-50%);
-        -o-transform: translateX(-50%) translateY(-50%);
-        -webkit-transform: translateX(-50%) translateY(-50%);
-        transform: translateX(-50%) translateY(-50%);
-    }
+.prev2 i,
+.next2 i {
+    font-size: 60px;
+    opacity: 0.5;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
 
 .prev2 {
     display: none;
@@ -830,7 +880,6 @@ span.languageHolder.pull-right {
     text-transform: uppercase;
 }
 
-
 .ImpressumTekst {
     position: absolute;
     left: 50%;
@@ -845,7 +894,7 @@ span.languageHolder.pull-right {
 }
 
 @media only screen and (max-width: 1024px) {
-    .mainTitle{
+    .mainTitle {
         font-size: 30px!important;
         padding: 30px 0!important;
     }
@@ -855,27 +904,32 @@ span.languageHolder.pull-right {
         text-transform: uppercase;
         top: 8px;
         font-size: 20px;
-    
-    
     }
-    .header a.backLink{width:150px; font-size: 20px;}
-    #navbar{font-size:18px;     line-height: 30px;}
+    .header a.backLink {
+        font-size: 20px;
+        height: 60px;
+    }
+    #navbar {
+        font-size: 18px;
+        line-height: 30px;
+    }
 }
-
-
 
 @media only screen and (max-width: 600px) {
-.mainTitle{
-    font-size: 24px!important;
-    padding: 40px 0!important;
-}
-span.languageHolder.pull-right {
-    position: absolute;
-    right: 10px;
-    text-transform: uppercase;
-    top: 8px;
-    font-size: 18px;
-}
-.header a.backLink{width: 20px;overflow: hidden;
-    height: 70px;}
+    .mainTitle {
+        font-size: 24px!important;
+        padding: 40px 0!important;
+    }
+    span.languageHolder.pull-right {
+        position: absolute;
+        right: 10px;
+        text-transform: uppercase;
+        top: 8px;
+        font-size: 18px;
+    }
+    .header a.backLink {
+        width: 20px;
+        overflow: hidden;
+        height: 70px;
+    }
 }
