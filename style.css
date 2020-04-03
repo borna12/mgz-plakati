@@ -857,6 +857,8 @@ span.languageHolder.pull-right {
     
     
     }
+    .header a.backLink{width:150px; font-size: 20px;}
+    #navbar{font-size:18px}
 }
 
 
@@ -872,6 +874,8 @@ span.languageHolder.pull-right {
     text-transform: uppercase;
     top: 8px;
     font-size: 18px;
+}
+#backLink{width: 50px;}
 
 
-}}
+}
