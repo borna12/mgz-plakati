@@ -904,6 +904,7 @@ span.languageHolder.pull-right {
 
 #navbar {
     display: inline-flex;
+    font-size: 22px;
 }
 
 @media only screen and (max-width: 1024px) {
