@@ -911,7 +911,6 @@ span.languageHolder.pull-right {
     }
     .header a.backLink {
         font-size: 20px;
-        height: 60px;
     }
     #navbar {
         font-size: 18px;
@@ -934,6 +933,5 @@ span.languageHolder.pull-right {
     .header a.backLink {
         width: 20px;
         overflow: hidden;
-        height: 70px;
     }
 }
