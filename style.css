@@ -112,7 +112,7 @@ body {
 
     .header a.backLink {
         color: #fff;
-        display: none;
+        display: block;
         width: 230px;
         border-right: solid 2px #fff;
         text-align: center;
@@ -128,7 +128,7 @@ body {
             color: black;
             background-color: #ddd;
         }
-        .backLink::before{display:block;content: "<<";}
+
 
 .LeftMenuHolder {
     width: 695px;
