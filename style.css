@@ -909,13 +909,16 @@ span.languageHolder.pull-right {
         text-transform: uppercase;
         top: 8px;
         font-size: 20px;
+        background: rgba(140, 122, 122, 0.85);
+        border-radius: 5px;
+        padding: 0 5px;
     }
     .header a.backLink {
         font-size: 20px;
     }
     .header {
         font-size: 18px;
-        line-height: 30px;
+        line-height: 50px;
     }
 }
 
@@ -937,5 +940,9 @@ span.languageHolder.pull-right {
     .header a.backLink {
         width: 20px;
         overflow: hidden;
+    }
+    .header {
+        font-size: 18px;
+        line-height: 30px;
     }
 }
