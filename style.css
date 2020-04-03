@@ -843,8 +843,25 @@ span.languageHolder.pull-right {
     transform: translateX(-50%) translateY(-50%);
 }
 
+@media only screen and (max-width: 1024px) {
+    .mainTitle{
+        font-size: 30px!important;
+        padding: 30px 0!important;
+    }
+    span.languageHolder.pull-right {
+        position: absolute;
+        right: 10px;
+        text-transform: uppercase;
+        top: 8px;
+        font-size: 20px;
+    
+    
+    }
+}
 
-@media only screen and (max-width: 800px) {
+
+
+@media only screen and (max-width: 600px) {
 .mainTitle{
     font-size: 24px!important;
     padding: 40px 0!important;
