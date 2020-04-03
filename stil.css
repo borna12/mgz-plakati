@@ -74,9 +74,7 @@ h1{width: 100%;background: black }
 body{background: rgb(35,35,35)}
 .zidovi{max-width:100%; max-height:100%; border:1px solid black}
 #centriraj {
-    position: absolute;
-    bottom: 40px;
-    left: 0;
+  
 }
 button, .button {
     background-color: white; /* Green */
