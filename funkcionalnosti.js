@@ -3,7 +3,6 @@
 $(document).ready(function() {
     function checkWidth() {
         if ($(window).width() <= 600) {
-            alert("dff")
             $(".backLink").text("<<")
         }
     }
