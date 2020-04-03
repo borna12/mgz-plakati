@@ -875,7 +875,5 @@ span.languageHolder.pull-right {
     top: 8px;
     font-size: 18px;
 }
-#backLink{width: 50px;}
-
-
+.header a.backLink{width: 50px;}
 }
