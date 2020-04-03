@@ -939,7 +939,6 @@ span.languageHolder.pull-right {
         position: absolute;
         right: 10px;
         text-transform: uppercase;
-        top: 8px;
         font-size: 18px;
         background: rgba(140, 122, 122, 0.85);
         border-radius: 5px;
@@ -950,6 +949,6 @@ span.languageHolder.pull-right {
     }
     .header {
         font-size: 18px;
-        line-height: 30px;
+        line-height: 40px;
     }
 }
