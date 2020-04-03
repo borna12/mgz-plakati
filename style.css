@@ -844,10 +844,10 @@ span.languageHolder.pull-right {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 .mainTitle{
-    font-size: 24px;
-    padding: 40px 0;
+    font-size: 24px!important;
+    padding: 40px 0!important;
 }
 span.languageHolder.pull-right {
     position: absolute;
