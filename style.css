@@ -138,6 +138,7 @@ body {
 
 .header i {
     margin-right: 7px;
+    line-height: inherit;
 }
 
 .header a.backLink {
