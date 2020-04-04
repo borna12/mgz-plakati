@@ -197,13 +197,13 @@ body {
     line-height: 30px;
     padding: 35px;
     padding-top: 0;
-    padding-left: 0;
 }
 
 .opis {
     padding: 0 35px;
     color: white;
     text-align: justify;
+    line-height: 20px;
 }
 
 .RightContentHolder {}
@@ -238,6 +238,7 @@ body {
     margin: auto;
     display: block;
     padding: 20px;
+    text-align: center;
 }
 
 .RightContentHolder img {
@@ -299,6 +300,8 @@ body {
     color: white;
     text-align: justify;
     margin-right: 10px;
+    margin-left: 10px;
+    line-height: 20px;
 }
 
 .RelatedRow {}
