@@ -975,6 +975,17 @@ span.languageHolder.pull-right {
     background-color: #42424269;
 }
 
+.imageTemeHolder {
+    width: 100%;
+    float: none;
+}
+
+.imageTemeHolder img {
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
@@ -1057,14 +1068,5 @@ span.languageHolder.pull-right {
     }
     .LeftMenu {
         height: 100vh;
-    }
-    .imageTemeHolder {
-        width: 100%;
-        float: none;
-    }
-    .imageTemeHolder img {
-        display: block;
-        margin: auto;
-        padding-bottom: 20px;
     }
 }
