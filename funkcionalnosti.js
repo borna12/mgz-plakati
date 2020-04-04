@@ -30,7 +30,7 @@ $(document).ready(function() {
 $("#mySidenav").click(function() {
         $("#mySidenav").find("a").text("izbornik <<")
         alert("radi")
-        $('.RightContentHolder ').toggle();
+        $('.RightContentHolder ').show();
     })
     /*
     $.getScript("https://cdn.jsdelivr.net/npm/browser-image-compression@latest/dist/browser-image-compression.js")
