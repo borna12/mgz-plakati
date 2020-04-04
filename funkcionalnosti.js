@@ -6,7 +6,7 @@ $('.ContentHolder').addClass("col span_1_of_3")
 
 if ($('.RightContentHolder ').length == 0) {
     $(".ContentHolder ").addClass('span_2_of_3').removeClass('span_1_of_3');
-    $(".header").after('<div id="mySidenav" class="sidenav"><a href="#" id="about">izbornik</a></div>')
+    $(".header").after('<div id="mySidenav" class="sidenav"><a href="#" id="about" style="display:none">izbornik</a></div>')
 }
 //izmjene za rezolucije
 $(document).ready(function() {
@@ -17,6 +17,7 @@ $(document).ready(function() {
             if ($('.RightContentHolder ').length == 0) {
                 $(".LeftMenuHolder").hide()
                 $(".span_2_of_3").css({ "width": "100%" })
+                $("#about").show()
             }
         }
     }
@@ -25,9 +26,13 @@ $(document).ready(function() {
     // Bind event listener
     $(window).resize(checkWidth);
 });
-/*
-$.getScript("https://cdn.jsdelivr.net/npm/browser-image-compression@latest/dist/browser-image-compression.js")
-    .done(function(script, textStatus) {
 
+$("#about").click(function() {
+        $('.RightContentHolder ').toggle();
     })
-    .fail(function(jqxhr, settings, exception) {});*/
+    /*
+    $.getScript("https://cdn.jsdelivr.net/npm/browser-image-compression@latest/dist/browser-image-compression.js")
+        .done(function(script, textStatus) {
+
+        })
+        .fail(function(jqxhr, settings, exception) {});*/

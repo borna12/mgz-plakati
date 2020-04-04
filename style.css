@@ -951,7 +951,7 @@ span.languageHolder.pull-right {
 
 #mySidenav a {
     position: absolute;
-    left: -80px;
+    left: -85px;
     transition: 0.3s;
     padding: 15px;
     width: 100px;
@@ -966,8 +966,8 @@ span.languageHolder.pull-right {
 }
 
 #about {
-    top: 20px;
-    background-color: #4CAF50;
+    top: 90px;
+    background-color: #424242;
 }
 
 
