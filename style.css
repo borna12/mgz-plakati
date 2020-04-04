@@ -929,19 +929,16 @@ span.languageHolder.pull-right {
     width: 32.2%;
 }
 
+.span_1_of_3:nth-child(2) {
+    width: 42.3%;
+}
+
+.span_1_of_3:nth-child(3) {
+    width: 25.1%;
+}
+
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-
-@media only screen and (max-width: 600px) {
-    .col {
-        margin: 1% 0 1% 0%;
-    }
-    .span_3_of_3,
-    .span_2_of_3,
-    .span_1_of_3 {
-        width: 100%;
-    }
-}
 
 @media only screen and (max-width: 1024px) {
     .mainTitle {
@@ -967,6 +964,17 @@ span.languageHolder.pull-right {
     }
     h1>.languageHolder {
         padding: 5px 5px!important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .col {
+        margin: 1% 0 1% 0%;
+    }
+    .span_3_of_3,
+    .span_2_of_3,
+    .span_1_of_3 {
+        width: 100%!important;
     }
 }
 
