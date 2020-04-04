@@ -20,8 +20,6 @@ $(document).ready(function() {
     function checkWidth() {
         if ($(window).width() <= 600) {
             $(".backLink").text("<<")
-            $("#about").show()
-            $(".LeftMenuHolder").hide()
             $(".span_2_of_3").css({ "padding": "20px" })
         } else if ($(window).width() <= 1200) {
             if ($('.RightContentHolder').length == 0 && $('.LeftMenuHolder:has(img)').length == 0) {
