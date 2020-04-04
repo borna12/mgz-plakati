@@ -14,7 +14,7 @@ $(document).ready(function() {
         if ($(window).width() <= 600) {
             $(".backLink").text("<<")
         } else if ($(window).width() <= 1200) {
-            if ($('.RightContentHolder ').length == 0) {
+            if ($('.RightContentHolder').length == 0) {
                 $(".LeftMenuHolder").hide()
                 $(".span_2_of_3").css({ "width": "100%" })
                 $("#about").show()
@@ -29,7 +29,7 @@ $(document).ready(function() {
 
 $("#mySidenav").click(function() {
         $("#mySidenav").find("a").text("izbornik <<")
-        $('.RightContentHolder').toggle();
+        $('.LeftMenuHolder').toggle();
     })
     /*
     $.getScript("https://cdn.jsdelivr.net/npm/browser-image-compression@latest/dist/browser-image-compression.js")
