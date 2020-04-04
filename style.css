@@ -554,7 +554,7 @@ a.homeLink:hover {
 
 .GradRow {
     float: left;
-    width: 1850px;
+    width: 100%;
     border-bottom: none;
     margin-bottom: 0;
     height: 596px;
