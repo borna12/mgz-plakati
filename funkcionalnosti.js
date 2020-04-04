@@ -37,7 +37,7 @@ $(document).ready(function() {
     $(window).resize(checkWidth);
 });
 
-$("#mySidenav").click(function() {
+$("#mySidenav").on('click touchstart', function() {
         $("#mySidenav").find("a").toggleText('izbornik >>', 'izbornik <<');
         $('.LeftMenuHolder').toggle();
     })

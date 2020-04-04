@@ -1030,9 +1030,6 @@ span.languageHolder.pull-right {
     a.relatedLink {
         width: 150px;
     }
-    #about {
-        top: 50px;
-    }
 }
 
 @media only screen and (max-width: 600px) {
