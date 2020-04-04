@@ -959,6 +959,8 @@ span.languageHolder.pull-right {
     font-size: 20px;
     color: white;
     border-radius: 0 5px 5px 0;
+    z-index: 100;
+    cursor: pointer;
 }
 
 #mySidenav a:hover {
