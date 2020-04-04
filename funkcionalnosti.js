@@ -1,11 +1,3 @@
-function fix() {
-    var el = this;
-    var par = el.parentNode;
-    var next = el.nextSibling;
-    par.removeChild(el);
-    setTimeout(function() { par.insertBefore(el, next); }, 0)
-}
-
 $.fn.extend({
     toggleText: function(a, b) {
         return this.text(this.text() == b ? a : b);
@@ -50,7 +42,7 @@ $(document).ready(function() {
 });
 
 $("#mySidenav").unbind("click").click(function() {
-        $("#mySidenav").find("a").toggleText('izbornik >>', 'izbornik <<');
+        $(this).hide()
         $('.LeftMenuHolder').toggle();
     })
     /*
