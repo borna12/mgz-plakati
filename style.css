@@ -99,6 +99,7 @@
     /* Legacy iOS */
 }
 
+html,
 body {
     font-family: 'Roboto';
     overflow-x: hidden;
