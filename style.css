@@ -226,6 +226,9 @@ body {
 .RightContentHolder a:hover,
 .RightContentHolder a:focus {
     color: #cecece;
+}
+
+.RightContentHolder a {
     margin: auto;
     display: block;
     padding: 20px;
