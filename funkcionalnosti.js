@@ -6,6 +6,7 @@ $('.ContentHolder').addClass("col span_1_of_3")
 
 if ($('.RightContentHolder ').length == 0) {
     $(".ContentHolder ").addClass('span_2_of_3').removeClass('span_1_of_3');
+    $(".header").after('<div id="mySidenav" class="sidenav"><a href="#" id="about">izbornik</a></div>')
 }
 //izmjene za rezolucije
 $(document).ready(function() {
@@ -15,6 +16,7 @@ $(document).ready(function() {
         } else if ($(window).width() <= 1200) {
             if ($('.RightContentHolder ').length == 0) {
                 $(".LeftMenuHolder").hide()
+                $(".span_2_of_3").css({ "width": "100%" })
             }
         }
     }
