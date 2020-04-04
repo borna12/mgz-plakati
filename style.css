@@ -857,7 +857,11 @@ ul.GradGallery li:hover {
 .AutorHolder .ContentHolder .Content p a {
     color: #232323;
     background: #a0a0a0;
-    padding: 1px 7px;
+    color: #232323;
+    background: #a0a0a0;
+    /* padding: 1px; */
+    border-radius: 3px;
+    padding: 0 5px;
 }
 
 span.languageHolder.pull-right {
