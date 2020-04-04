@@ -180,6 +180,7 @@ body {
 .LeftMenuHolder img {
     max-width: 100%;
     height: auto;
+    margin-left: 10px;
 }
 
 .ContentHolder {}
@@ -189,10 +190,13 @@ body {
     color: #fff;
     line-height: 30px;
     padding: 35px;
+    padding-top: 0;
 }
 
 .opis {
     padding: 0 35px;
+    color: white;
+    text-align: justify;
 }
 
 .RightContentHolder {}
@@ -494,12 +498,9 @@ ul.subMenu {
 
 .PlakatHolder .RightContentHolder {
     overflow: auto;
-    width: 250px;
 }
 
-.PlakatHolder .LeftMenuHolder {
-    overflow: auto;
-}
+.PlakatHolder .LeftMenuHolder {}
 
 a.homeLink {
     float: left;
@@ -931,7 +932,7 @@ span.languageHolder.pull-right {
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
     .col {
         margin: 1% 0 1% 0%;
     }
