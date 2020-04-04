@@ -99,6 +99,10 @@
     /* Legacy iOS */
 }
 
+body {
+    position: relative;
+}
+
 html,
 body {
     font-family: 'Roboto';
