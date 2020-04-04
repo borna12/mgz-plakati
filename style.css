@@ -295,10 +295,7 @@ body {
     text-align: justify;
 }
 
-.RelatedRow {
-    float: left;
-    width: 1400px;
-}
+.RelatedRow {}
 
 .RelatedAutorHolder {
     float: left;
