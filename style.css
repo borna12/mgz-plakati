@@ -277,7 +277,6 @@ body {
 }*/
 
 .AutorHolder .ContentHolder {
-    overflow: auto;
     border-right: none;
 }
 
