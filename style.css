@@ -597,6 +597,7 @@ button i {
 .GradTekst {
     padding: 35px;
     border-bottom: solid 2px black;
+    color: white;
 }
 
 h2.relatedLinkHeader {
@@ -717,7 +718,6 @@ ul.GradSlikeList {
 
 .GradSlikeList li {
     float: left;
-    width: 1453px;
     height: 100%;
 }
 
