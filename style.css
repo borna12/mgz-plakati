@@ -982,6 +982,10 @@ span.languageHolder.pull-right {
     .span_1_of_3 {
         width: 100%!important;
     }
+    .LeftMenuHolder img {
+        max-width: 50%;
+        padding-top: 20px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
