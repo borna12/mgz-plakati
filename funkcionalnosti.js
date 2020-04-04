@@ -14,11 +14,9 @@ $(document).ready(function() {
     // Bind event listener
     $(window).resize(checkWidth);
 });
-
-$.getScript("https://xkeshi.github.io/image-compressor/js/image-compressor.js")
+/*
+$.getScript("https://cdn.jsdelivr.net/npm/browser-image-compression@latest/dist/browser-image-compression.js")
     .done(function(script, textStatus) {
-        alert("xyc")
+
     })
-    .fail(function(jqxhr, settings, exception) {
-        alert("ne radi")
-    });
+    .fail(function(jqxhr, settings, exception) {});*/
