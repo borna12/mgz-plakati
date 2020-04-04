@@ -445,6 +445,8 @@ hr {
 
 ul.LeftMenu {
     margin-top: 45px;
+    /*overflow-y: auto;
+    height: 100vh;*/
 }
 
 .LeftMenu a {
