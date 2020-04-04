@@ -1,3 +1,10 @@
+$.fn.extend({
+    toggleText: function(a, b) {
+        return this.text(this.text() == b ? a : b);
+    }
+});
+
+
 $('.LeftMenuHolder, .RightContentHolder, .ContentHolder').wrapAll('<div class="section group">');
 $('.LeftMenuHolder').addClass("col span_1_of_3")
 $('.RightContentHolder').addClass("col span_1_of_3")
@@ -28,7 +35,7 @@ $(document).ready(function() {
 });
 
 $("#mySidenav").click(function() {
-        $("#mySidenav").find("a").text("izbornik <<")
+        $("#mySidenav").find("a").toggleText('izbornik >>', 'izbornik <<');
         $('.LeftMenuHolder').toggle();
     })
     /*
