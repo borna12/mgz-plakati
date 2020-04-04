@@ -861,6 +861,7 @@ ul.GradGallery li:hover {
     /* padding: 1px; */
     border-radius: 3px;
     padding: 0 5px;
+    color: white;
 }
 
 span.languageHolder.pull-right {
