@@ -99,10 +99,6 @@
     /* Legacy iOS */
 }
 
-body {
-    position: relative;
-}
-
 html,
 body {
     font-family: 'Roboto';
@@ -296,7 +292,6 @@ body {
     position: relative;
     top: auto;
     padding: 35px;
-    padding-left: 0;
     color: white;
     text-align: justify;
     margin-right: 10px;
