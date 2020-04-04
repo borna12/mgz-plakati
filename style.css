@@ -384,11 +384,7 @@ hr {
     overflow: auto;
 }*/
 
-.TemeHolder .ContentHolder {
-    left: 452px;
-    width: 1468px;
-    overflow: auto;
-}
+.TemeHolder .ContentHolder {}
 
 .TemeHolder h1 {
     text-align: left;

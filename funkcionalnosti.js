@@ -1,3 +1,11 @@
+function fix() {
+    var el = this;
+    var par = el.parentNode;
+    var next = el.nextSibling;
+    par.removeChild(el);
+    setTimeout(function() { par.insertBefore(el, next); }, 0)
+}
+
 $.fn.extend({
     toggleText: function(a, b) {
         return this.text(this.text() == b ? a : b);
@@ -13,7 +21,7 @@ $('.ContentHolder').addClass("col span_1_of_3")
 
 if ($('.RightContentHolder ').length == 0) {
     $(".ContentHolder ").addClass('span_2_of_3').removeClass('span_1_of_3');
-    $(".header").after('<div id="mySidenav" class="sidenav"><a href="#" id="about" style="display:none">izbornik >></a></div>')
+    $(".header").after('<div id="mySidenav" class="sidenav" ontouchend="this.onclick=fix"><a href="#" id="about" style="display:none">izbornik >></a></div>')
 }
 //izmjene za rezolucije
 $(document).ready(function() {
