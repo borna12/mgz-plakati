@@ -2,7 +2,12 @@ $('.LeftMenuHolder, .RightContentHolder, .ContentHolder').wrapAll('<div class="s
 $('.LeftMenuHolder').addClass("col span_1_of_3")
 $('.RightContentHolder').addClass("col span_1_of_3")
 $('.ContentHolder').addClass("col span_1_of_3")
-    //izmjene za rezolucije
+
+
+if ($('.RightContentHolder ').length == 0) {
+    $(".ContentHolder ").addClass('span_2_of_3').removeClass('span_1_of_3');
+}
+//izmjene za rezolucije
 $(document).ready(function() {
     function checkWidth() {
         if ($(window).width() <= 600) {
