@@ -234,12 +234,14 @@ body {
 
 .legenda {
     padding: 30px 35px 0 80px;
+    color: #ddd;
+    ;
 }
 
 .legenda i {
     font-size: 38px;
-    position: absolute;
-    left: 35px;
+    float: left;
+    padding-right: 10px;
 }
 
 .legenda strong {
