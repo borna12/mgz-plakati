@@ -809,6 +809,7 @@ ul.GradGallery li:hover {
 .GradGalleryItemHolder h3 {
     font-size: 14px;
     padding: 7px 0;
+    color: white;
 }
 
 .prev2,
@@ -855,9 +856,7 @@ ul.GradGallery li:hover {
 }
 
 .AutorHolder .ContentHolder .Content p a {
-    color: #232323;
     background: #a0a0a0;
-    color: #232323;
     background: #a0a0a0;
     /* padding: 1px; */
     border-radius: 3px;
