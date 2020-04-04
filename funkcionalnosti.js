@@ -12,6 +12,10 @@ $(document).ready(function() {
     function checkWidth() {
         if ($(window).width() <= 600) {
             $(".backLink").text("<<")
+        } else if ($(window).width() <= 1200) {
+            if ($('.RightContentHolder ').length == 0) {
+                $(".LeftMenuHolder").hide()
+            }
         }
     }
     // Execute on load

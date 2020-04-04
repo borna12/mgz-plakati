@@ -287,13 +287,14 @@ body {
     right: auto;
     width: auto;
     border-right: none;
-    border-bottom: solid 2px black;
+    border-bottom: solid 2px #999999;
     bottom: auto;
     position: relative;
     top: auto;
     padding: 35px;
     padding-left: 0;
-    color: white
+    color: white;
+    text-align: justify;
 }
 
 .RelatedRow {
@@ -878,6 +879,7 @@ span.languageHolder.pull-right {
     -o-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
+    color: white
 }
 
 #navbar {
