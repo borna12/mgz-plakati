@@ -293,6 +293,7 @@ body {
     padding-left: 0;
     color: white;
     text-align: justify;
+    margin-right: 10px;
 }
 
 .RelatedRow {}
