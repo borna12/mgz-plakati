@@ -941,6 +941,12 @@ span.languageHolder.pull-right {
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 1024px) {
+    h2.relatedLinkHeader {
+        margin-left: 10%;
+    }
+    a.relatedLink {
+        margin-left: 10%;
+    }
     .mainTitle {
         font-size: 30px!important;
         padding: 30px 0!important;
@@ -975,12 +981,6 @@ span.languageHolder.pull-right {
     .span_2_of_3,
     .span_1_of_3 {
         width: 100%!important;
-    }
-    h2.relatedLinkHeader {
-        margin-left: 10%;
-    }
-    a.relatedLink {
-        margin-left: 10%;
     }
 }
 
