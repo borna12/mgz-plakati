@@ -226,10 +226,16 @@ body {
 .RightContentHolder a:hover,
 .RightContentHolder a:focus {
     color: #cecece;
+    margin: auto;
+    display: block;
+    padding: 20px;
 }
 
 .RightContentHolder img {
-    width: 160px;
+    width: 50%;
+    margin: auto;
+    display: block;
+    padding-top: 20px;
 }
 
 .legenda {
