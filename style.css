@@ -165,14 +165,7 @@ body {
     background-color: #ddd;
 }
 
-.LeftMenuHolder {
-    width: 695px;
-    position: absolute;
-    left: 0;
-    top: 73px;
-    bottom: 0;
-    border-right: solid 2px black;
-}
+.LeftMenuHolder {}
 
 
 /*.LeftMenuHolder img {
@@ -185,30 +178,11 @@ body {
 }*/
 
 .LeftMenuHolder img {
-    max-width: 608px;
-    max-height: 911px;
-    position: absolute;
-    top: 35px;
-    left: 50%;
-    -moz-transform: translateX(-50%) translateY(0);
-    -ms-transform: translateX(-50%) translateY(0);
-    -o-transform: translateX(-50%) translateY(0);
-    -webkit-transform: translateX(-50%) translateY(0);
-    transform: translateX(-50%) translateY(0);
+    max-width: 100%;
+    height: auto;
 }
 
-.ContentHolder {
-    position: absolute;
-    top: 73px;
-    right: 0;
-    left: 697px;
-    bottom: 0;
-    width: 931px;
-    border-right: solid 2px black;
-    color: #cecece;
-    font-size: 16px;
-    line-height: 28px;
-}
+.ContentHolder {}
 
 .kataloska {
     font-size: 22px;
@@ -221,15 +195,7 @@ body {
     padding: 0 35px;
 }
 
-.RightContentHolder {
-    position: absolute;
-    right: 0;
-    width: 230px;
-    bottom: 0;
-    top: 73px;
-    color: #cecece;
-    padding-top: 40px;
-}
+.RightContentHolder {}
 
 .RightContentHolder h2 {
     font-size: 14px;
@@ -905,6 +871,75 @@ span.languageHolder.pull-right {
 #navbar {
     display: inline-flex;
     font-size: 22px;
+}
+
+
+/*  SECTIONS  */
+
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*  COLUMN SETUP  */
+
+.col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child {
+    margin-left: 0;
+}
+
+
+/*  GROUPING  */
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+    /* For IE 6/7 */
+}
+
+
+/*  GRID OF THREE  */
+
+.span_3_of_3 {
+    width: 100%;
+}
+
+.span_2_of_3 {
+    width: 66.1%;
+}
+
+.span_1_of_3 {
+    width: 32.2%;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .col {
+        margin: 1% 0 1% 0%;
+    }
+    .span_3_of_3,
+    .span_2_of_3,
+    .span_1_of_3 {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
