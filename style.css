@@ -242,6 +242,7 @@ body {
     font-size: 38px;
     float: left;
     padding-right: 10px;
+    text-align: justify;
 }
 
 .legenda strong {
@@ -987,6 +988,9 @@ span.languageHolder.pull-right {
     .LeftMenuHolder img {
         max-width: 50%;
         padding-top: 20px;
+    }
+    .kataloska {
+        text-align: center;
     }
 }
 
