@@ -21,6 +21,8 @@ $(document).ready(function() {
         if ($(window).width() <= 600) {
             $(".backLink").text("<<")
             $("#about").show()
+            $(".LeftMenuHolder").hide()
+            $(".span_2_of_3").css({ "width": "100%" })
         } else if ($(window).width() <= 1200) {
             if ($('.RightContentHolder').length == 0) {
                 $(".LeftMenuHolder").hide()
