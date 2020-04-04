@@ -538,7 +538,7 @@ a.homeLink:hover {
 .GradHolder .ContentHolder {
     left: 0;
     right: 0;
-    width: auto;
+    width: 100%;
     overflow: auto;
     border: none;
 }
