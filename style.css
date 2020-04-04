@@ -278,8 +278,6 @@ body {
 }*/
 
 .AutorHolder .ContentHolder {
-    left: 452px;
-    width: 1468px;
     overflow: auto;
     border-right: none;
 }
@@ -377,7 +375,6 @@ hr {
 }
 
 .TemeHolder .LeftMenuHolder {
-    width: 450px;
     background-color: #424242;
     overflow: auto;
 }
