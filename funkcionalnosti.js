@@ -24,7 +24,7 @@ $(document).ready(function() {
             $(".LeftMenuHolder").hide()
             $(".span_2_of_3").css({ "padding": "20px" })
         } else if ($(window).width() <= 1200) {
-            if ($('.RightContentHolder').length == 0) {
+            if ($('.RightContentHolder').length == 0 && $('.LeftMenuHolder:has(img)').length == 0) {
                 $(".LeftMenuHolder").hide()
                 $(".span_2_of_3").css({ "width": "100%" })
                 $("#about").show()
