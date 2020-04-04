@@ -14,3 +14,11 @@ $(document).ready(function() {
     // Bind event listener
     $(window).resize(checkWidth);
 });
+
+$.getScript("https://xkeshi.github.io/image-compressor/js/image-compressor.js")
+    .done(function(script, textStatus) {
+        alert("xyc")
+    })
+    .fail(function(jqxhr, settings, exception) {
+        alert("ne radi")
+    });
