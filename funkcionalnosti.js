@@ -21,16 +21,17 @@ $(document).ready(function() {
         if ($(window).width() <= 600) {
             $(".backLink").text("<<")
             $(".span_2_of_3").css({ "padding": "20px" })
-
             if ($('.RightContentHolder').length == 0 && $('.LeftMenuHolder:has(img)').length == 0) {
                 $(".LeftMenuHolder").hide()
                 $("#about").show()
+                $("#mySidenav").unbind('mouseenter mouseleave')
             }
         } else if ($(window).width() <= 1200) {
             if ($('.RightContentHolder').length == 0 && $('.LeftMenuHolder:has(img)').length == 0) {
                 $(".LeftMenuHolder").hide()
                 $(".span_2_of_3").css({ "width": "100%" })
                 $("#about").show()
+                $("#mySidenav").unbind('mouseenter mouseleave')
             }
         }
     }
