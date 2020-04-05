@@ -995,7 +995,7 @@ span.languageHolder.pull-right {
 }
 
 .naslovna-jez {
-    width: 150px;
+    width: 150px!important;
 }
 
 
@@ -1084,7 +1084,8 @@ span.languageHolder.pull-right {
         padding-bottom: 20px;
     }
     .naslovna-jez {
-        width: 100%;
+        width: 100%!important;
+        padding-top: 20px;
     }
 }
 
