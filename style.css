@@ -356,7 +356,7 @@ body {
 .sticky2 {
     position: -webkit-sticky;
     position: sticky;
-    top: -50px;
+    top: -70px;
     z-index: 10;
 }
 
