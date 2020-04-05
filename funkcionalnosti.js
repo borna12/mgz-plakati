@@ -28,7 +28,6 @@ $(document).ready(function() {
         }
         if ($(window).width() <= 600) {
             $(".span_2_of_3").css({ "padding": "20px" })
-            $(".sakri").hide()
 
         } else if ($(window).width() <= 1200) {
             $(".backLink").text("<<")
@@ -42,8 +41,7 @@ $(document).ready(function() {
     $("#mySidenav").unbind("click").click(function() {
         $(this).hide()
         $('.LeftMenuHolder').show();
-    })
-    $(".fa-times").unbind("click").click(function() {
+    }) $(".fa-times").unbind("click").click(function() {
         $(".LeftMenuHolder").hide()
         $('#mySidenav').show();
     })
