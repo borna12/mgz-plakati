@@ -128,6 +128,11 @@ body {
     right: 0;
     border: solid 0 #fff;
     background-color: #232323;
+    overflow-x: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .header {
@@ -210,7 +215,7 @@ body {
 .RightContentHolder {}
 
 .RightContentHolder h2 {
-    font-size: 14px;
+    font-size: 18px;
     text-align: left;
     color: #cecece;
     padding: 5px 15px 20px 0;
@@ -1028,6 +1033,9 @@ span.languageHolder.pull-right {
     .LeftMenu li:last-child {
         padding-bottom: 180px;
     }
+    .subMenu li:last-child {
+        padding-bottom: initial;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1087,7 +1095,7 @@ span.languageHolder.pull-right {
     }
     .naslovna-jez {
         width: 100%!important;
-        padding-top: 20px!important;
+        margin-top: 20px!important;
     }
     .RightContentHolder {
         padding-bottom: 20px;
