@@ -24,14 +24,13 @@ $(document).ready(function() {
             if ($('.RightContentHolder').length == 0 && $('.LeftMenuHolder:has(img)').length == 0) {
                 $(".LeftMenuHolder").addClass("sakri")
                 $("#about").show()
-                $("#mySidenav").unbind('mouseenter mouseleave')
             }
         } else if ($(window).width() <= 1200) {
             if ($('.RightContentHolder').length == 0 && $('.LeftMenuHolder:has(img)').length == 0) {
+                $(".backLink").text("<<")
                 $(".LeftMenuHolder").addClass("sakri")
                 $(".span_2_of_3").css({ "width": "100%" })
                 $("#about").show()
-                $("#mySidenav").unbind('mouseenter mouseleave')
             }
         }
     }
