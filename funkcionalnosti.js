@@ -26,6 +26,7 @@ if ($('.RightContentHolder ').length == 0 && $('.LeftMenuHolder ').length != 0) 
 $(document).ready(function() {
     if ($('.RightContentHolder').length == 0 && $('.LeftMenuHolder:has(img)').length == 0) {
         $(".LeftMenuHolder").addClass("sakri")
+        $(".LeftMenuHolder").addClass("sticker")
         $(".LeftMenuHolder").prepend('<p class="x" style="text-align:right; color:white; padding:10px"><i class="fa fa-times" aria-hidden="true" style=" font-size: 30px;cursor:pointer"></i>')
     }
 

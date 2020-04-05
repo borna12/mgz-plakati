@@ -175,7 +175,9 @@ body {
     background-color: #ddd;
 }
 
-.LeftMenuHolder {
+.LeftMenuHolder {}
+
+.sticker {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -531,6 +533,7 @@ ul.LeftMenu {
     padding: 35px;
     color: white;
     text-align: justify;
+    margin-bottom: 35px;
 }
 
 ul.subMenu {
