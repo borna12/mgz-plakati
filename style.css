@@ -356,6 +356,7 @@ body {
 .sticky2 {
     position: fixed;
     top: -50px;
+    z-index: 10;
 }
 
 .RelatedRow.equal {
@@ -1025,8 +1026,10 @@ span.languageHolder.pull-right {
     }
     .prikazi {
         display: block;
-        position: absolute;
-        z-index: 10
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        margin-top: 0;
     }
     .x {
         display: block;
