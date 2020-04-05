@@ -1106,6 +1106,7 @@ span.languageHolder.pull-right {
     .imageTemeHolder {
         width: 100%;
         float: none;
+        padding: 0;
     }
     .imageTemeHolder img {
         display: block;
