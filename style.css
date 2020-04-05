@@ -175,7 +175,11 @@ body {
     background-color: #ddd;
 }
 
-.LeftMenuHolder {}
+.LeftMenuHolder {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
 
 
 /*.LeftMenuHolder img {
