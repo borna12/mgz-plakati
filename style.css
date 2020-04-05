@@ -1002,6 +1002,8 @@ span.languageHolder.pull-right {
     }
     .prikazi {
         display: block;
+        position: absolute;
+        z-index: 10
     }
     .x {
         display: block;
