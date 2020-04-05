@@ -344,6 +344,8 @@ body {
 
 .RelatedItem img {
     max-width: 160px;
+    display: block!important;
+    margin: auto!important;
 }
 
 .imageHolder {
@@ -355,6 +357,7 @@ body {
     position: absolute;
     bottom: 0;
     display: grid;
+    width: 100%;
 }
 
 .sticky2 {
