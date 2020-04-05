@@ -436,6 +436,9 @@ hr {
     width: 285px;
     float: left;
     padding: 35px;
+}
+
+.imageTemeHolder:first-child {
     padding-top: 0;
 }
 
