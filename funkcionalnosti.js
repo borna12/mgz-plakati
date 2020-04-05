@@ -23,13 +23,13 @@ $(document).ready(function() {
             $(".span_2_of_3").css({ "padding": "20px" })
             if ($('.RightContentHolder').length == 0 && $('.LeftMenuHolder:has(img)').length == 0) {
                 $(".LeftMenuHolder").addClass("sakri")
-                $(".sakri").prepend('<p class="x" style="text-align:right; color:white; padding:10px"><i class="fa fa-times" aria-hidden="true" style=" font-size: 30px;"></i>')
+                $(".LeftMenuHolder").prepend('<p class="x" style="text-align:right; color:white; padding:10px"><i class="fa fa-times" aria-hidden="true" style=" font-size: 30px;"></i>')
             }
         } else if ($(window).width() <= 1200) {
             if ($('.RightContentHolder').length == 0 && $('.LeftMenuHolder:has(img)').length == 0) {
                 $(".backLink").text("<<")
                 $(".LeftMenuHolder").addClass("sakri")
-                $(".sakri").prepend('<p class="x" style="text-align:right; color:white; padding:10px"><i class="fa fa-times" aria-hidden="true" style=" font-size: 30px;"></i>')
+                $(".LeftMenuHolder").prepend('<p class="x" style="text-align:right; color:white; padding:10px"><i class="fa fa-times" aria-hidden="true" style=" font-size: 30px;"></i>')
             }
         }
     }
