@@ -287,6 +287,10 @@ body {
     border-right: none;
 }
 
+.sakri {
+    display: block
+}
+
 .AutorHolder .ContentHolder .Content {
     left: auto;
     right: auto;
@@ -983,6 +987,12 @@ span.languageHolder.pull-right {
 
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 1200px) {
+    .sakri {
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 1024px) {
     h2.relatedLinkHeader {
