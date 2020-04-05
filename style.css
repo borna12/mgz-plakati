@@ -994,6 +994,10 @@ span.languageHolder.pull-right {
     background-color: #42424269;
 }
 
+.naslovna-jez {
+    width: 150px;
+}
+
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
@@ -1078,6 +1082,9 @@ span.languageHolder.pull-right {
         display: block;
         margin: auto;
         padding-bottom: 20px;
+    }
+    .naslovna-jez {
+        width: 100%;
     }
 }
 
