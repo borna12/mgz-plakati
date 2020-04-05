@@ -23,13 +23,13 @@ $(document).ready(function() {
             $(".span_2_of_3").css({ "padding": "20px" })
             if ($('.RightContentHolder').length == 0 && $('.LeftMenuHolder:has(img)').length == 0) {
                 $(".LeftMenuHolder").addClass("sakri")
-                $(".LeftMenuHolder").prepend('<p class="x" style="text-align:right; color:white; padding:10px"><i class="fa fa-times" aria-hidden="true" style=" font-size: 30px;"></i>')
+                $(".LeftMenuHolder").prepend('<p class="x" style="text-align:right; color:white; padding:10px"><i class="fa fa-times" aria-hidden="true" style=" font-size: 30px;cursor:pointer"></i>')
             }
         } else if ($(window).width() <= 1200) {
             if ($('.RightContentHolder').length == 0 && $('.LeftMenuHolder:has(img)').length == 0) {
                 $(".backLink").text("<<")
                 $(".LeftMenuHolder").addClass("sakri")
-                $(".LeftMenuHolder").prepend('<p class="x" style="text-align:right; color:white; padding:10px"><i class="fa fa-times" aria-hidden="true" style=" font-size: 30px;"></i>')
+                $(".LeftMenuHolder").prepend('<p class="x" style="text-align:right; color:white; padding:10px"><i class="fa fa-times" aria-hidden="true" style=" font-size: 30px; cursor:pointer"></i>')
             }
         }
     }
@@ -37,16 +37,17 @@ $(document).ready(function() {
     checkWidth();
     // Bind event listener
     $(window).resize(checkWidth);
+    $("#mySidenav").unbind("click").click(function() {
+        $(this).hide()
+        $('.LeftMenuHolder').toggle();
+    })
+    $(".fa-times").unbind("click").click(function() {
+        $(".LeftMenuHolder").hide()
+        $('#mySidenav').show();
+    })
+
 });
 
-$("#mySidenav").unbind("click").click(function() {
-    $(this).hide()
-    $('.LeftMenuHolder').toggle();
-})
-$(".fa-times").unbind("click").click(function() {
-    $(".LeftMenuHolder").hide()
-    $('#mySidenav').show();
-})
 
 /*
 $.getScript("https://cdn.jsdelivr.net/npm/browser-image-compression@latest/dist/browser-image-compression.js")
