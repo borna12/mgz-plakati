@@ -203,7 +203,8 @@ body {
     padding: 0 35px;
     color: white;
     text-align: justify;
-    line-height: 20px;
+    line-height: 30px;
+    font-size: 20px;
 }
 
 .RightContentHolder {}
@@ -1086,6 +1087,9 @@ span.languageHolder.pull-right {
     .naslovna-jez {
         width: 100%!important;
         padding-top: 20px!important;
+    }
+    .RightContentHolder {
+        padding-bottom: 20px;
     }
 }
 
