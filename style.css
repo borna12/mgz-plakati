@@ -335,6 +335,7 @@ body {
     width: 200px;
     overflow: hidden;
     padding-bottom: 30px;
+    height: initial!important
 }
 
 .RelatedItem img {
@@ -1003,6 +1004,11 @@ span.languageHolder.pull-right {
 
 .naslovna-jez {
     width: 150px!important;
+}
+
+.Content {
+    font-size: 20px;
+    line-height: 30px;
 }
 
 
