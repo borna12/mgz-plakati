@@ -4,6 +4,10 @@ $.fn.extend({
     }
 });
 
+if ($(".languageHolder").parents('.mainTitle').length == 1) {
+    $(".languageHolder").addClass("naslovna-jez")
+}
+
 
 $('.LeftMenuHolder, .RightContentHolder, .ContentHolder').wrapAll('<div class="section group">');
 $('.LeftMenuHolder').addClass("col span_1_of_3")
@@ -26,6 +30,7 @@ $(document).ready(function() {
 
         if ($(window).width() <= 600) {
             $(".span_2_of_3").css({ "padding": "20px" })
+            $(".backLink").text("<<")
 
         } else if ($(window).width() <= 1200) {
             $(".backLink").text("<<")

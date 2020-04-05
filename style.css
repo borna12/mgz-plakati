@@ -506,6 +506,7 @@ ul.LeftMenu {
     position: relative;
     top: auto;
     padding: 35px;
+    color: white;
 }
 
 ul.subMenu {
@@ -1019,7 +1020,7 @@ span.languageHolder.pull-right {
         overflow-y: scroll;
     }
     .LeftMenu li:last-child {
-        padding-bottom: 150px;
+        padding-bottom: 180px;
     }
 }
 
