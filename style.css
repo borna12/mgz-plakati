@@ -878,7 +878,7 @@ span.languageHolder.pull-right {
     float: right;
     text-transform: uppercase;
     padding-right: 10px;
-    width: 180px
+    width: 80px
 }
 
 #mySidenav {
@@ -998,6 +998,13 @@ span.languageHolder.pull-right {
     }
     #mySidenav {
         display: block;
+    }
+    ul.LeftMenu {
+        height: 100vh;
+        overflow-y: scroll;
+    }
+    .LeftMenu li:last-child {
+        padding-bottom: 150px;
     }
 }
 
