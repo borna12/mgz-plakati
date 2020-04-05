@@ -522,6 +522,7 @@ ul.LeftMenu {
     top: auto;
     padding: 35px;
     color: white;
+    text-align: justify;
 }
 
 ul.subMenu {
