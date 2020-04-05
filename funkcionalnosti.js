@@ -28,6 +28,8 @@ $(document).ready(function() {
         }
         if ($(window).width() <= 600) {
             $(".span_2_of_3").css({ "padding": "20px" })
+            $(".sakri").hide()
+
         } else if ($(window).width() <= 1200) {
             $(".backLink").text("<<")
             $(".sakri").hide()
