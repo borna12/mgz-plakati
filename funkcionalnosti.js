@@ -36,7 +36,7 @@ $(document).ready(function() {
     $(window).resize(checkWidth);
     $("#mySidenav").unbind("click").click(function() {
         $(this).hide()
-        $('.LeftMenuHolder').toggle();
+        $('.LeftMenuHolder').show();
     })
     $(".fa-times").unbind("click").click(function() {
         $(".LeftMenuHolder").hide()
