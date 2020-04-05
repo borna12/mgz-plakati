@@ -317,7 +317,8 @@ body {
     bottom: auto;
     position: relative;
     top: auto;
-    padding: 35px;
+    margin: 35px;
+    padding-bottom: 35px;
     color: white;
     text-align: justify;
     line-height: 20px;
