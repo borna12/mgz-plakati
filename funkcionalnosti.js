@@ -17,25 +17,17 @@ if ($('.RightContentHolder ').length == 0) {
 }
 //izmjene za rezolucije
 $(document).ready(function() {
-    function checkWidth() {
+    if ($('.RightContentHolder').length == 0 && $('.LeftMenuHolder:has(img)').length == 0) {
+        $(".LeftMenuHolder").addClass("sakri")
+        $(".LeftMenuHolder").prepend('<p class="x" style="text-align:right; color:white; padding:10px"><i class="fa fa-times" aria-hidden="true" style=" font-size: 30px;cursor:pointer"></i>')
+    }
 
+    function checkWidth() {
         if ($(window).width() <= 600) {
             $(".backLink").text("<<")
             $(".span_2_of_3").css({ "padding": "20px" })
-            if ($('.RightContentHolder').length == 0 && $('.LeftMenuHolder:has(img)').length == 0) {
-                $(".LeftMenuHolder").addClass("sakri")
-                if ($(".LeftMenuHolder:has(p)").length == 0) {
-                    $(".LeftMenuHolder").prepend('<p class="x" style="text-align:right; color:white; padding:10px"><i class="fa fa-times" aria-hidden="true" style=" font-size: 30px;cursor:pointer"></i>')
-                }
-            }
         } else if ($(window).width() <= 1200) {
-            if ($('.RightContentHolder').length == 0 && $('.LeftMenuHolder:has(img)').length == 0) {
-                $(".backLink").text("<<")
-                $(".LeftMenuHolder").addClass("sakri")
-                if ($(".LeftMenuHolder:has(p)").length == 0) {
-                    $(".LeftMenuHolder").prepend('<p class="x" style="text-align:right; color:white; padding:10px"><i class="fa fa-times" aria-hidden="true" style=" font-size: 30px;cursor:pointer"></i>')
-                }
-            }
+            $(".backLink").text("<<")
         }
     }
     // Execute on load
