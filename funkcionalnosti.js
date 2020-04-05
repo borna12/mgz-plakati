@@ -40,9 +40,10 @@ $(document).ready(function() {
     $(window).resize(checkWidth);
     $("#mySidenav").unbind("click").click(function() {
         $(this).hide()
-        $('.LeftMenuHolder').show();
-    }) $(".fa-times").unbind("click").click(function() {
-        $(".LeftMenuHolder").hide()
+        $('.LeftMenuHolder').addClass("prikazi");
+    })
+    $(".fa-times").unbind("click").click(function() {
+        $(".LeftMenuHolder").removeClass("prikazi")
         $('#mySidenav').show();
     })
 

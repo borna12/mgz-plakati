@@ -1000,6 +1000,9 @@ span.languageHolder.pull-right {
     .sakri {
         display: none;
     }
+    .prikazi {
+        display: block;
+    }
     .x {
         display: block;
     }
