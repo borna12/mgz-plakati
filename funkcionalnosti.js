@@ -23,15 +23,12 @@ $(document).ready(function() {
     }
 
     function checkWidth() {
-        if ($(window).width() >= 1200) {
-            $(".sakri").show()
-        }
+
         if ($(window).width() <= 600) {
             $(".span_2_of_3").css({ "padding": "20px" })
 
         } else if ($(window).width() <= 1200) {
             $(".backLink").text("<<")
-            $(".sakri").hide()
         }
     }
     // Execute on load
