@@ -23,6 +23,7 @@ $(document).ready(function() {
             $(".span_2_of_3").css({ "padding": "20px" })
             if ($('.RightContentHolder').length == 0 && $('.LeftMenuHolder:has(img)').length == 0) {
                 $(".LeftMenuHolder").addClass("sakri")
+                $(".sakri").prepend('<p style="text-align:right; color:white; padding:10px"><i class="fa fa-times" aria-hidden="true" style=" font-size: 30px;"></i>')
             }
         } else if ($(window).width() <= 1200) {
             if ($('.RightContentHolder').length == 0 && $('.LeftMenuHolder:has(img)').length == 0) {
@@ -38,12 +39,17 @@ $(document).ready(function() {
 });
 
 $("#mySidenav").unbind("click").click(function() {
-        $(this).hide()
-        $('.LeftMenuHolder').toggle();
-    })
-    /*
-    $.getScript("https://cdn.jsdelivr.net/npm/browser-image-compression@latest/dist/browser-image-compression.js")
-        .done(function(script, textStatus) {
+    $(this).hide()
+    $('.LeftMenuHolder').toggle();
+})
+$(".fa-times").unbind("click").click(function() {
+    $(".LeftMenuHolder").hide()
+    $('#mySidenav').show();
+})
 
-        })
-        .fail(function(jqxhr, settings, exception) {});*/
+/*
+$.getScript("https://cdn.jsdelivr.net/npm/browser-image-compression@latest/dist/browser-image-compression.js")
+    .done(function(script, textStatus) {
+
+    })
+    .fail(function(jqxhr, settings, exception) {});*/
