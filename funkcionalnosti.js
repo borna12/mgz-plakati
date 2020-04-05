@@ -56,6 +56,7 @@ $(document).ready(function() {
     var sticky = header.offsetTop;
 
     function myFunction() {
+        alert("cd")
         if (window.pageYOffset > sticky) {
             header.classList.add("sticky2");
         } else {
