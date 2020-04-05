@@ -996,6 +996,9 @@ span.languageHolder.pull-right {
     .sakri {
         display: none;
     }
+    .span_2_of_3 {
+        width: 100%;
+    }
     #mySidenav {
         display: block;
     }
