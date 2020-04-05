@@ -353,6 +353,11 @@ body {
     display: grid;
 }
 
+.sticky {
+    position: fixed;
+    top: -50px;
+}
+
 .RelatedRow.equal {
     display: flex;
     -ms-flex-wrap: wrap;
