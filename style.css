@@ -354,7 +354,8 @@ body {
 }
 
 .sticky2 {
-    position: fixed;
+    position: -webkit-sticky;
+    position: sticky;
     top: -50px;
     z-index: 10;
 }

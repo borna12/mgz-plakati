@@ -17,23 +17,11 @@ $('.ContentHolder').addClass("col span_1_of_3")
 
 if ($('.RightContentHolder ').length == 0 && $('.LeftMenuHolder ').length != 0) {
     $(".ContentHolder ").addClass('span_2_of_3').removeClass('span_1_of_3');
-    $(".header").after('<div id="mySidenav" class="sidenav" ontouchend="this.onclick=fix"><a href="#" id="about" >izbornik >></a></div>')
+    $(".header").after('<div id="mySidenav" class="sidenav sticky2" ontouchend="this.onclick=fix"><a href="#" id="about" >izbornik >></a></div>')
 }
 
 
-window.onscroll = function() { myFunction() };
 
-var header = document.getElementById("mySidenav");
-var sticky = header.offsetTop;
-
-function myFunction() {
-    alert("cd")
-    if (window.pageYOffset > sticky) {
-        header.classList.add("sticky2");
-    } else {
-        header.classList.remove("sticky2");
-    }
-}
 //izmjene za rezolucije
 $(document).ready(function() {
     if ($('.RightContentHolder').length == 0 && $('.LeftMenuHolder:has(img)').length == 0) {
