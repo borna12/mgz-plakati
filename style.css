@@ -291,6 +291,10 @@ body {
     display: block
 }
 
+.x {
+    display: none;
+}
+
 .AutorHolder .ContentHolder .Content {
     left: auto;
     right: auto;
@@ -995,6 +999,9 @@ span.languageHolder.pull-right {
 @media only screen and (max-width: 1200px) {
     .sakri {
         display: none;
+    }
+    .x {
+        display: block;
     }
     .span_2_of_3 {
         width: 100%;
