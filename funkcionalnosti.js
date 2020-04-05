@@ -15,7 +15,7 @@ $('.RightContentHolder').addClass("col span_1_of_3")
 $('.ContentHolder').addClass("col span_1_of_3")
 
 
-if ($('.RightContentHolder ').length == 0) {
+if ($('.RightContentHolder ').length == 0 && $('.LeftMenuHolder ').length != 0) {
     $(".ContentHolder ").addClass('span_2_of_3').removeClass('span_1_of_3');
     $(".header").after('<div id="mySidenav" class="sidenav" ontouchend="this.onclick=fix"><a href="#" id="about" >izbornik >></a></div>')
 }
