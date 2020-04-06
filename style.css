@@ -1100,7 +1100,7 @@ span.languageHolder.pull-right {
         line-height: 35px;
     }
     .mainTitle .pull-right {
-        text-align: center;
+        text-align: center!important;
     }
 }
 
