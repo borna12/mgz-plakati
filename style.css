@@ -1121,6 +1121,7 @@ span.languageHolder.pull-right {
     }
     span.languageHolder.pull-right {
         font-size: 20px;
+        position: initial!important;
     }
     .header a.backLink {
         font-size: 20px;
