@@ -1091,6 +1091,14 @@ span.languageHolder.pull-right {
     .subMenu li:last-child {
         padding-bottom: initial;
     }
+    span.languageHolder.pull-right {
+        width: 200px;
+        text-align: right;
+    }
+    #navbar {
+        display: inline-flex;
+        line-height: 35px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1117,14 +1125,6 @@ span.languageHolder.pull-right {
     }
     h1>.languageHolder {
         padding: 5px 5px!important;
-    }
-    span.languageHolder.pull-right {
-        width: 200px;
-        text-align: right;
-    }
-    #navbar {
-        display: inline-flex;
-        line-height: 35px;
     }
 }
 
