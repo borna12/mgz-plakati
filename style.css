@@ -1031,14 +1031,14 @@ span.languageHolder.pull-right {
     line-height: 30px;
 }
 
-::-webkit-scrollbar {
+.LeftMenu::-webkit-scrollbar {
     width: 15px;
 }
 
 
 /* Track */
 
- ::-webkit-scrollbar-track {
+.LeftMenu::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey;
     border-radius: 5px;
 }
@@ -1046,7 +1046,7 @@ span.languageHolder.pull-right {
 
 /* Handle */
 
- ::-webkit-scrollbar-thumb {
+.LeftMenu::-webkit-scrollbar-thumb {
     background: #ccc;
     border-radius: 10px;
 }
@@ -1054,7 +1054,7 @@ span.languageHolder.pull-right {
 
 /* Handle on hover */
 
- ::-webkit-scrollbar-thumb:hover {
+.LeftMenu::-webkit-scrollbar-thumb:hover {
     background: #ccc;
 }
 
@@ -1155,6 +1155,12 @@ span.languageHolder.pull-right {
     }
     .RightContentHolder {
         padding-bottom: 20px;
+    }
+    span.languageHolder.pull-right {
+        width: 200px;
+    }
+    #navbar {
+        display: inline-flex;
     }
 }
 
