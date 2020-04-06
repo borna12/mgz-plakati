@@ -39,6 +39,10 @@ $(document).ready(function() {
         } else if ($(window).width() <= 1200) {
             $(".backLink").text("<<")
             $(".zidovi").wrap("<div class='skrolzidova'></div>")
+
+            var outerContent = $('.skrolzidova');
+            var innerContent = $('.skrolzidova > div');
+            outerContent.scrollLeft((innerContent.width() - outerContent.width()) / 2);
         }
     }
     // Execute on load
