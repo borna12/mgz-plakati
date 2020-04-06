@@ -447,6 +447,10 @@ hr {
     padding-bottom: 35px;
 }
 
+.TemeItem:first-child {
+    padding-top: 35px;
+}
+
 .imageTemeHolder {
     width: 285px;
     float: left;
