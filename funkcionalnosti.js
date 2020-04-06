@@ -1,8 +1,3 @@
-if ($(location).attr('href') == "http://mgz-plakati.web.link2.hr/" || $(location).attr('href') == "http://mgz-plakati.web.link2.hr/en" || $(location).attr('href') == "http://mgz-plakati.web.link2.hr/hr") {
-    location.reload(true);
-
-}
-
 $.fn.extend({
     toggleText: function(a, b) {
         return this.text(this.text() == b ? a : b);
