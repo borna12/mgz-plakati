@@ -1158,6 +1158,7 @@ span.languageHolder.pull-right {
     }
     span.languageHolder.pull-right {
         width: 200px;
+        text-align: right;
     }
     #navbar {
         display: inline-flex;
