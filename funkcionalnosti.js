@@ -38,6 +38,7 @@ $(document).ready(function() {
 
         } else if ($(window).width() <= 1200) {
             $(".backLink").text("<<")
+            $(".zidovi").wrap("<div class='skrolzidova'></div>")
         }
     }
     // Execute on load
