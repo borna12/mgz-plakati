@@ -41,7 +41,7 @@ $(document).ready(function() {
             $(".zidovi").wrap("<div class='skrolzidova'></div>")
 
             var outerContent = $('.skrolzidova');
-            var innerContent = $('.skrolzidova > div');
+            var innerContent = $('.skrolzidova > img');
             outerContent.scrollLeft((innerContent.width() - outerContent.width()) / 2);
         }
     }
