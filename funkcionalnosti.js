@@ -25,6 +25,7 @@ if ($('.RightContentHolder ').length == 0 && $('.LeftMenuHolder ').length != 0) 
     $(".header").after('<div id="mySidenav" class="sidenav sticky2" ontouchend="this.onclick=fix"><a href="#" id="about" >izbornik >></a></div>')
 }
 
+$(".zidovi").wrap("<div class='skrolzidova'></div>")
 
 
 //izmjene za rezolucije
@@ -40,14 +41,12 @@ $(document).ready(function() {
         if ($(window).width() <= 600) {
             $(".span_2_of_3").css({ "padding": "20px" })
             $(".backLink").text("<<")
-            $(".zidovi").wrap("<div class='skrolzidova'></div>")
             var outerContent = $('.skrolzidova');
             var innerContent = $('.skrolzidova > img');
             outerContent.scrollLeft((innerContent.width() - outerContent.width() - 35) / 2);
 
         } else if ($(window).width() <= 1200) {
             $(".backLink").text("<<")
-            $(".zidovi").wrap("<div class='skrolzidova'></div>")
             var outerContent = $('.skrolzidova');
             var innerContent = $('.skrolzidova > img');
             outerContent.scrollLeft((innerContent.width() - outerContent.width() - 35) / 2);

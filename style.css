@@ -1060,33 +1060,6 @@ span.languageHolder.pull-right {
     background: #ccc;
 }
 
-.skrolzidova::-webkit-scrollbar {
-    height: 15px;
-}
-
-
-/* Track */
-
-.skrolzidova::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
-    border-radius: 5px;
-}
-
-
-/* Handle */
-
-.skrolzidova::-webkit-scrollbar-thumb {
-    background: #ccc;
-    border-radius: 10px;
-}
-
-
-/* Handle on hover */
-
-.skrolzidova::-webkit-scrollbar-thumb:hover {
-    background: #ccc;
-}
-
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
@@ -1145,6 +1118,23 @@ span.languageHolder.pull-right {
         overflow-x: auto;
         -ms-overflow-style: -ms-autohiding-scrollbar;
         display: block;
+    }
+    .skrolzidova::-webkit-scrollbar {
+        height: 15px;
+    }
+    /* Track */
+    .skrolzidova::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 5px;
+    }
+    /* Handle */
+    .skrolzidova::-webkit-scrollbar-thumb {
+        background: #ccc;
+        border-radius: 10px;
+    }
+    /* Handle on hover */
+    .skrolzidova::-webkit-scrollbar-thumb:hover {
+        background: #ccc;
     }
 }
 
@@ -1243,6 +1233,6 @@ span.languageHolder.pull-right {
         display: none;
     }
     #navbar {
-        font-size: 18px;
+        font-size: 18fpx;
     }
 }
