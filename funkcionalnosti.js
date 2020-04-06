@@ -35,6 +35,9 @@ $(document).ready(function() {
         if ($(window).width() <= 600) {
             $(".span_2_of_3").css({ "padding": "20px" })
             $(".backLink").text("<<")
+            var outerContent = $('.skrolzidova');
+            var innerContent = $('.skrolzidova > img');
+            outerContent.scrollLeft((innerContent.width() - outerContent.width()) / 2);
 
         } else if ($(window).width() <= 1200) {
             $(".backLink").text("<<")
