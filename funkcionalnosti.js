@@ -1,4 +1,4 @@
-prestani = 0
+$(".zidovi").wrap("<div class='skrolzidova'></div>")
 if ($(location).attr('href') == "http://mgz-plakati.web.link2.hr/" || $(location).attr('href') == "http://mgz-plakati.web.link2.hr/en" || $(location).attr('href') == "http://mgz-plakati.web.link2.hr/hr") {
     localStorage.clear()
 }
@@ -25,7 +25,6 @@ if ($('.RightContentHolder ').length == 0 && $('.LeftMenuHolder ').length != 0) 
     $(".header").after('<div id="mySidenav" class="sidenav sticky2" ontouchend="this.onclick=fix"><a href="#" id="about" >izbornik >></a></div>')
 }
 
-$(".zidovi").wrap("<div class='skrolzidova'></div>")
 
 
 //izmjene za rezolucije
