@@ -1118,6 +1118,13 @@ span.languageHolder.pull-right {
     h1>.languageHolder {
         padding: 5px 5px!important;
     }
+    span.languageHolder.pull-right {
+        width: 200px;
+        text-align: right;
+    }
+    #navbar {
+        display: inline-flex;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -1155,13 +1162,6 @@ span.languageHolder.pull-right {
     }
     .RightContentHolder {
         padding-bottom: 20px;
-    }
-    span.languageHolder.pull-right {
-        width: 200px;
-        text-align: right;
-    }
-    #navbar {
-        display: inline-flex;
     }
 }
 
