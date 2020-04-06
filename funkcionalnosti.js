@@ -38,14 +38,14 @@ $(document).ready(function() {
             $(".zidovi").wrap("<div class='skrolzidova'></div>")
             var outerContent = $('.skrolzidova');
             var innerContent = $('.skrolzidova > img');
-            outerContent.scrollLeft((innerContent.width() - outerContent.width()) / 2);
+            outerContent.scrollLeft((innerContent.width() - outerContent.width() - 20) / 2);
 
         } else if ($(window).width() <= 1200) {
             $(".backLink").text("<<")
             $(".zidovi").wrap("<div class='skrolzidova'></div>")
             var outerContent = $('.skrolzidova');
             var innerContent = $('.skrolzidova > img');
-            outerContent.scrollLeft((innerContent.width() - outerContent.width()) / 2);
+            outerContent.scrollLeft((innerContent.width() - outerContent.width() - 20) / 2);
         }
     }
     // Execute on load

@@ -1229,4 +1229,7 @@ span.languageHolder.pull-right {
     .LeftMenu {
         height: 100vh;
     }
+    .ContentHolder {
+        padding: 0!important;
+    }
 }
