@@ -1092,7 +1092,8 @@ span.languageHolder.pull-right {
         padding-bottom: initial;
     }
     span.languageHolder.pull-right {
-        width: 200px;
+        position: absolute;
+        right: 0;
         text-align: right;
     }
     #navbar {
