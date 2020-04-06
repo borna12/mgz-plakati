@@ -1237,3 +1237,12 @@ span.languageHolder.pull-right {
         padding: 0!important;
     }
 }
+
+@media only screen and (max-width: 450px) {
+    span.languageHolder.pull-right {
+        width: 120px;
+    }
+    #navbar {
+        font-size: 16px;
+    }
+}
