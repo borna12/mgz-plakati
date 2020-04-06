@@ -1103,7 +1103,7 @@ span.languageHolder.pull-right {
     .mainTitle .pull-right {
         text-align: center!important;
         background: black;
-        position: none
+        position: initial!important;
     }
 }
 
