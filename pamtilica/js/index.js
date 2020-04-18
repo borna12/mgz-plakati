@@ -8,7 +8,7 @@ var razina = 1;
 var broj_karata = 3;
 
 $(".prometna").click(function() {
-    $(".modal").html("<h2 class='winner'>Pamtilica portreti </h2><br><p style='text-align:center'>odaberite broj parova</p><button id='prva'>4</button> <button id='druga'>8</button><button id='treca'>12</button><p style='text-align: center;font-size: 1.5rem;'> <a href='javascript:history.back()' style='text-decoration: none; color:#ca9f30'>vrati se ↩</a></p>	");
+    $(".modal").html("<h2 class='winner'>Pamtilica portreti </h2><br><p style='text-align:center'>odaberite broj parova</p><button id='prva'>4</button> <button id='druga'>8</button><button id='treca'>12</button><p style='text-align: center;font-size: 1.5rem;'> <a href='http://valpovacki-vlastelini.info/' style='text-decoration: none; color:#ca9f30'>vrati se ↩</a></p>	");
     $("#prva").click(function() {
         razina = "1";
         igra()
