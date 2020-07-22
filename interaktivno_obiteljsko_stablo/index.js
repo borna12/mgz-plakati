@@ -57,9 +57,9 @@ function locationHashChanged() {
         })
     }
     else if (window.location.hash.substr(1) == "alvina") {
-        naslov = "Ime osobe"
-        podnalsov = "(ono što ide ispod imena)"
-        adresa_slike = "slike/placeholder.jpg"
+        naslov = "Alvina grofica Pejačević"
+        podnalsov = "(1830. - 1882.)"
+        adresa_slike = "slike/MLU-S-737_hilleprand_alvina_1830-1882.jpg"
         poveznica = "http://valpovacki-vlastelini.info/"
         tekst_html = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
 
@@ -317,9 +317,9 @@ function locationHashChanged() {
         })
     }
     else if (window.location.hash.substr(1) == "JosephIgnazSigismund") {
-        naslov = "Ime osobe"
-        podnalsov = "(ono što ide ispod imena)"
-        adresa_slike = "slike/placeholder.jpg"
+        naslov = "Josip Ignjat barun Hilleprand von Prandau"
+        podnalsov = "(1749. - 1816.)"
+        adresa_slike = "slike/MLU-S-715_hilleprand_joseph ignaz sigismund_1749-1816.jpg"
         poveznica = "http://valpovacki-vlastelini.info/"
         tekst_html = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
 
@@ -337,9 +337,9 @@ function locationHashChanged() {
         })
     }
     else if (window.location.hash.substr(1) == "PeterIIAnton") {
-        naslov = "Ime osobe"
-        podnalsov = "(ono što ide ispod imena)"
-        adresa_slike = "slike/placeholder.jpg"
+        naslov = "Petar II. Antun barun Hilleprand von Prandau"
+        podnalsov = "(1676.-1767.)"
+        adresa_slike = "slike/MLU-S-714_hilleprand_peter II anton_1676-1767.jpg"
         poveznica = "http://valpovacki-vlastelini.info/"
         tekst_html = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
 
@@ -739,9 +739,9 @@ function locationHashChanged() {
         })
     }
     else if (window.location.hash.substr(1) == "rudolfJoseph") {
-        naslov = "Ime osobe"
-        podnalsov = "(ono što ide ispod imena)"
-        adresa_slike = "slike/placeholder.jpg"
+        naslov = "Rudolf Joseph"
+        podnalsov = "(1857. - 1942.)"
+        adresa_slike = "slike/MLU-S-719_normann_rudolf-joseph_1857-1942.jpg"
         poveznica = "http://valpovacki-vlastelini.info/"
         tekst_html = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
 
