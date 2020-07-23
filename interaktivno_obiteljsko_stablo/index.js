@@ -116,6 +116,7 @@ function locationHashChanged() {
             confirmButtonText: 'zatvori'
         })
     }
+ 
     else if (window.location.hash.substr(1) == "karlLudwig") {
         naslov = "Ime osobe"
         podnalsov = "(ono što ide ispod imena)"
@@ -879,6 +880,267 @@ function locationHashChanged() {
         })
     }
     else if (window.location.hash.substr(1) == "Charlotte") {
+        naslov = "Ime osobe"
+        podnalsov = "(ono što ide ispod imena)"
+        adresa_slike = "slike/placeholder.jpg"
+        poveznica = "http://valpovacki-vlastelini.info/"
+        tekst_html = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+
+        Swal.fire({
+            title: naslov + "<br><span style='font-size:14px'>" + podnalsov + "<span>",
+            html: "<img src='" + adresa_slike + "' style='width:100%;height:auto'/><p style='text-align:justify'>" + tekst_html + "</p><br><a href='" + poveznica + "' target='_blank'>Opširnije...</a>",
+            showClass: {
+                popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+                popup: 'animate__animated animate__fadeOutUp'
+            },
+            confirmButtonColor: '#CBA133',
+            confirmButtonText: 'zatvori'
+        })
+    }
+    //imena koja nisu u kvadratićima (djeca)
+        else if (window.location.hash.substr(1) == "adelhaid") {
+        naslov = "Ime osobe"
+        podnalsov = "(ono što ide ispod imena)"
+        adresa_slike = "slike/placeholder.jpg"
+        poveznica = "http://valpovacki-vlastelini.info/"
+        tekst_html = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+
+        Swal.fire({
+            title: naslov + "<br><span style='font-size:14px'>" + podnalsov + "<span>",
+            html: "<img src='" + adresa_slike + "' style='width:100%;height:auto'/><p style='text-align:justify'>" + tekst_html + "</p><br><a href='" + poveznica + "' target='_blank'>Opširnije...</a>",
+            showClass: {
+                popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+                popup: 'animate__animated animate__fadeOutUp'
+            },
+            confirmButtonColor: '#CBA133',
+            confirmButtonText: 'zatvori'
+        })
+    }
+    else if (window.location.hash.substr(1) == "mariaTheresaBreznay") {
+        naslov = "Ime osobe"
+        podnalsov = "(ono što ide ispod imena)"
+        adresa_slike = "slike/placeholder.jpg"
+        poveznica = "http://valpovacki-vlastelini.info/"
+        tekst_html = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+
+        Swal.fire({
+            title: naslov + "<br><span style='font-size:14px'>" + podnalsov + "<span>",
+            html: "<img src='" + adresa_slike + "' style='width:100%;height:auto'/><p style='text-align:justify'>" + tekst_html + "</p><br><a href='" + poveznica + "' target='_blank'>Opširnije...</a>",
+            showClass: {
+                popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+                popup: 'animate__animated animate__fadeOutUp'
+            },
+            confirmButtonColor: '#CBA133',
+            confirmButtonText: 'zatvori'
+        })
+    }
+     else if (window.location.hash.substr(1) == "mariaAnaElenoraPejacevic") {
+        naslov = "Ime osobe"
+        podnalsov = "(ono što ide ispod imena)"
+        adresa_slike = "slike/placeholder.jpg"
+        poveznica = "http://valpovacki-vlastelini.info/"
+        tekst_html = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+
+        Swal.fire({
+            title: naslov + "<br><span style='font-size:14px'>" + podnalsov + "<span>",
+            html: "<img src='" + adresa_slike + "' style='width:100%;height:auto'/><p style='text-align:justify'>" + tekst_html + "</p><br><a href='" + poveznica + "' target='_blank'>Opširnije...</a>",
+            showClass: {
+                popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+                popup: 'animate__animated animate__fadeOutUp'
+            },
+            confirmButtonColor: '#CBA133',
+            confirmButtonText: 'zatvori'
+        })
+    }
+     else if (window.location.hash.substr(1) == "AnnaMariaKiennmayer") {
+        naslov = "Ime osobe"
+        podnalsov = "(ono što ide ispod imena)"
+        adresa_slike = "slike/placeholder.jpg"
+        poveznica = "http://valpovacki-vlastelini.info/"
+        tekst_html = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+
+        Swal.fire({
+            title: naslov + "<br><span style='font-size:14px'>" + podnalsov + "<span>",
+            html: "<img src='" + adresa_slike + "' style='width:100%;height:auto'/><p style='text-align:justify'>" + tekst_html + "</p><br><a href='" + poveznica + "' target='_blank'>Opširnije...</a>",
+            showClass: {
+                popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+                popup: 'animate__animated animate__fadeOutUp'
+            },
+            confirmButtonColor: '#CBA133',
+            confirmButtonText: 'zatvori'
+        })
+    }
+     else if (window.location.hash.substr(1) == "MariaViktoriavonJabornigg") {
+        naslov = "Ime osobe"
+        podnalsov = "(ono što ide ispod imena)"
+        adresa_slike = "slike/placeholder.jpg"
+        poveznica = "http://valpovacki-vlastelini.info/"
+        tekst_html = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+
+        Swal.fire({
+            title: naslov + "<br><span style='font-size:14px'>" + podnalsov + "<span>",
+            html: "<img src='" + adresa_slike + "' style='width:100%;height:auto'/><p style='text-align:justify'>" + tekst_html + "</p><br><a href='" + poveznica + "' target='_blank'>Opširnije...</a>",
+            showClass: {
+                popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+                popup: 'animate__animated animate__fadeOutUp'
+            },
+            confirmButtonColor: '#CBA133',
+            confirmButtonText: 'zatvori'
+        })
+    }
+     else if (window.location.hash.substr(1) == "MariaKristinaLattermann") {
+        naslov = "Ime osobe"
+        podnalsov = "(ono što ide ispod imena)"
+        adresa_slike = "slike/placeholder.jpg"
+        poveznica = "http://valpovacki-vlastelini.info/"
+        tekst_html = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+
+        Swal.fire({
+            title: naslov + "<br><span style='font-size:14px'>" + podnalsov + "<span>",
+            html: "<img src='" + adresa_slike + "' style='width:100%;height:auto'/><p style='text-align:justify'>" + tekst_html + "</p><br><a href='" + poveznica + "' target='_blank'>Opširnije...</a>",
+            showClass: {
+                popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+                popup: 'animate__animated animate__fadeOutUp'
+            },
+            confirmButtonColor: '#CBA133',
+            confirmButtonText: 'zatvori'
+        })
+    }     
+    else if (window.location.hash.substr(1) == "MariaAnnavonPrambs") {
+        naslov = "Ime osobe"
+        podnalsov = "(ono što ide ispod imena)"
+        adresa_slike = "slike/placeholder.jpg"
+        poveznica = "http://valpovacki-vlastelini.info/"
+        tekst_html = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+
+        Swal.fire({
+            title: naslov + "<br><span style='font-size:14px'>" + podnalsov + "<span>",
+            html: "<img src='" + adresa_slike + "' style='width:100%;height:auto'/><p style='text-align:justify'>" + tekst_html + "</p><br><a href='" + poveznica + "' target='_blank'>Opširnije...</a>",
+            showClass: {
+                popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+                popup: 'animate__animated animate__fadeOutUp'
+            },
+            confirmButtonColor: '#CBA133',
+            confirmButtonText: 'zatvori'
+        })
+    }
+       else if (window.location.hash.substr(1) == "MariaBarbaravonMayern") {
+        naslov = "Ime osobe"
+        podnalsov = "(ono što ide ispod imena)"
+        adresa_slike = "slike/placeholder.jpg"
+        poveznica = "http://valpovacki-vlastelini.info/"
+        tekst_html = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+
+        Swal.fire({
+            title: naslov + "<br><span style='font-size:14px'>" + podnalsov + "<span>",
+            html: "<img src='" + adresa_slike + "' style='width:100%;height:auto'/><p style='text-align:justify'>" + tekst_html + "</p><br><a href='" + poveznica + "' target='_blank'>Opširnije...</a>",
+            showClass: {
+                popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+                popup: 'animate__animated animate__fadeOutUp'
+            },
+            confirmButtonColor: '#CBA133',
+            confirmButtonText: 'zatvori'
+        })
+    }
+    else if (window.location.hash.substr(1) == "mariaTheresaLauraAntonia") {
+        naslov = "Ime osobe"
+        podnalsov = "(ono što ide ispod imena)"
+        adresa_slike = "slike/placeholder.jpg"
+        poveznica = "http://valpovacki-vlastelini.info/"
+        tekst_html = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+
+        Swal.fire({
+            title: naslov + "<br><span style='font-size:14px'>" + podnalsov + "<span>",
+            html: "<img src='" + adresa_slike + "' style='width:100%;height:auto'/><p style='text-align:justify'>" + tekst_html + "</p><br><a href='" + poveznica + "' target='_blank'>Opširnije...</a>",
+            showClass: {
+                popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+                popup: 'animate__animated animate__fadeOutUp'
+            },
+            confirmButtonColor: '#CBA133',
+            confirmButtonText: 'zatvori'
+        })
+    }
+    else if (window.location.hash.substr(1) == "juliannaAntoniaEdlevonVest") {
+        naslov = "Ime osobe"
+        podnalsov = "(ono što ide ispod imena)"
+        adresa_slike = "slike/placeholder.jpg"
+        poveznica = "http://valpovacki-vlastelini.info/"
+        tekst_html = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+
+        Swal.fire({
+            title: naslov + "<br><span style='font-size:14px'>" + podnalsov + "<span>",
+            html: "<img src='" + adresa_slike + "' style='width:100%;height:auto'/><p style='text-align:justify'>" + tekst_html + "</p><br><a href='" + poveznica + "' target='_blank'>Opširnije...</a>",
+            showClass: {
+                popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+                popup: 'animate__animated animate__fadeOutUp'
+            },
+            confirmButtonColor: '#CBA133',
+            confirmButtonText: 'zatvori'
+        })
+    }
+    else if (window.location.hash.substr(1) == "hermineudovagroficaNyary") {
+        naslov = "Ime osobe"
+        podnalsov = "(ono što ide ispod imena)"
+        adresa_slike = "slike/placeholder.jpg"
+        poveznica = "http://valpovacki-vlastelini.info/"
+        tekst_html = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+
+        Swal.fire({
+            title: naslov + "<br><span style='font-size:14px'>" + podnalsov + "<span>",
+            html: "<img src='" + adresa_slike + "' style='width:100%;height:auto'/><p style='text-align:justify'>" + tekst_html + "</p><br><a href='" + poveznica + "' target='_blank'>Opširnije...</a>",
+            showClass: {
+                popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+                popup: 'animate__animated animate__fadeOutUp'
+            },
+            confirmButtonColor: '#CBA133',
+            confirmButtonText: 'zatvori'
+        })
+    }
+    else if (window.location.hash.substr(1) == "MariannaAnaZichy") {
+        naslov = "Ime osobe"
+        podnalsov = "(ono što ide ispod imena)"
+        adresa_slike = "slike/placeholder.jpg"
+        poveznica = "http://valpovacki-vlastelini.info/"
+        tekst_html = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+
+        Swal.fire({
+            title: naslov + "<br><span style='font-size:14px'>" + podnalsov + "<span>",
+            html: "<img src='" + adresa_slike + "' style='width:100%;height:auto'/><p style='text-align:justify'>" + tekst_html + "</p><br><a href='" + poveznica + "' target='_blank'>Opširnije...</a>",
+            showClass: {
+                popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+                popup: 'animate__animated animate__fadeOutUp'
+            },
+            confirmButtonColor: '#CBA133',
+            confirmButtonText: 'zatvori'
+        })
+    }
+    else if (window.location.hash.substr(1) == "KarolineFriedrikeVonWeiler") {
         naslov = "Ime osobe"
         podnalsov = "(ono što ide ispod imena)"
         adresa_slike = "slike/placeholder.jpg"
